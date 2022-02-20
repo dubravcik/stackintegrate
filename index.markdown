@@ -214,7 +214,7 @@ function draw() {
     },
     edges: {
       width: 0.15,
-      color: { inherit: "to" },
+      color: { inherit: "from" },
       smooth: {
         type: "continuous",
       },
@@ -270,7 +270,7 @@ function neighbourhoodHighlight(params) {
     highlightActive = true;
     var i, j;
     var selectedNode = params.nodes[0];
-    var degrees = 2;
+    var degrees = 1;
 
     // mark all nodes as hard to read.
     for (var nodeId in allNodes) {
@@ -282,15 +282,6 @@ function neighbourhoodHighlight(params) {
     }
     var connectedNodes = network.getConnectedNodes(selectedNode);
     var allConnectedNodes = [];
-
-    // get the second degree nodes
-    for (i = 1; i < degrees; i++) {
-      for (j = 0; j < connectedNodes.length; j++) {
-        allConnectedNodes = allConnectedNodes.concat(
-          network.getConnectedNodes(connectedNodes[j])
-        );
-      }
-    }
 
     
 

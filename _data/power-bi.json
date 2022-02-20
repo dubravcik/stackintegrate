@@ -5,7 +5,8 @@
 	"status": "incomplete",
 	"sources": [
 		{
-			"code": "sql-server"
+			"code": "sql-server",
+			"url": "https://docs.microsoft.com/en-us/power-bi/connect-data/power-bi-data-sources"
 		},
 		{
 			"code": "snowflake"

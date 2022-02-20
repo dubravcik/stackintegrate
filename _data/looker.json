@@ -1,0 +1,63 @@
+{
+	"name": "Looker",
+	"type": "reporting",
+	"url": "https://looker.com",
+	"status":"incomplete sources",
+	"sources": [
+		{
+			"code": "redshift",
+			"url": "https://docs.looker.com/setup-and-management/database-config"
+		},
+		{
+			"code": "athena"
+		},
+		{
+			"code": "druid"
+		},
+		{
+			"code": "hive"
+		},
+		{
+			"code": "spark"
+		},
+		{
+			"code": "clickhouse"
+		},
+		{
+			"code": "impala"
+		},
+		{
+			"code": "databricks"
+		},
+		{
+			"code": "denodo"
+		},
+		{
+			"code": "dremio"
+		},
+		{
+			"code": "bigquery"
+		},
+		{
+			"code": "greenplum"
+		},
+		{
+			"code": "sql-server"
+		},
+		{
+			"code": "mysql"
+		},
+		{
+			"code": "postgresql"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "teradata"
+		},
+		{
+			"code": "vertica"
+		}
+	]
+}
