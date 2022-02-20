@@ -1,0 +1,1622 @@
+{
+	"name": "Funnel",
+	"type": "data loading",
+	"url": "https://funnel.io",
+	"status": "needs renaming",
+	"sources": [
+		{
+			"code": "adobeanalytics"
+		},
+		{
+			"code": "instagraminsights"
+		},
+		{
+			"code": "salesforce-logo-1"
+		},
+		{
+			"code": "tiktok"
+		},
+		{
+			"code": "2021_adjust-logo_black@2x"
+		},
+		{
+			"code": "hubspotlogo-web-color"
+		},
+		{
+			"code": "facebookads"
+		},
+		{
+			"code": "adwords"
+		},
+		{
+			"code": "google-analytics"
+		},
+		{
+			"code": "pepperjam"
+		},
+		{
+			"code": "pinterest"
+		},
+		{
+			"code": "quora"
+		},
+		{
+			"code": "custom-shopify"
+		},
+		{
+			"code": 360
+		},
+		{
+			"code": "2dehands"
+		},
+		{
+			"code": "2performant"
+		},
+		{
+			"code": "7pixel"
+		},
+		{
+			"code": "activecampaign"
+		},
+		{
+			"code": "acton"
+		},
+		{
+			"code": "adcolony"
+		},
+		{
+			"code": "adform_api"
+		},
+		{
+			"code": "admarvel"
+		},
+		{
+			"code": "admitad"
+		},
+		{
+			"code": "adobeadvertisingcloud"
+		},
+		{
+			"code": "adrecord"
+		},
+		{
+			"code": "adroll"
+		},
+		{
+			"code": "adservice"
+		},
+		{
+			"code": "adtraction"
+		},
+		{
+			"code": "aduptech"
+		},
+		{
+			"code": "adzuna"
+		},
+		{
+			"code": "applesearchads_api"
+		},
+		{
+			"code": "applovin_web"
+		},
+		{
+			"code": "baidu"
+		},
+		{
+			"code": "bamx"
+		},
+		{
+			"code": "basis"
+		},
+		{
+			"code": "basisdsp"
+		},
+		{
+			"code": "beslist_web"
+		},
+		{
+			"code": "biano"
+		},
+		{
+			"code": "bidtheatre_api"
+		},
+		{
+			"code": "billiger_de"
+		},
+		{
+			"code": "bing"
+		},
+		{
+			"code": "brightrolldsp"
+		},
+		{
+			"code": "bronto"
+		},
+		{
+			"code": "button"
+		},
+		{
+			"code": "cake"
+		},
+		{
+			"code": "callrail"
+		},
+		{
+			"code": "capterra"
+		},
+		{
+			"code": "ceneo"
+		},
+		{
+			"code": "channelpilot"
+		},
+		{
+			"code": "chartboost"
+		},
+		{
+			"code": "cherchons"
+		},
+		{
+			"code": "chinesean"
+		},
+		{
+			"code": "choozle"
+		},
+		{
+			"code": "cjaffiliate"
+		},
+		{
+			"code": "commissionfactory_web"
+		},
+		{
+			"code": "comparer"
+		},
+		{
+			"code": "compari"
+		},
+		{
+			"code": "connexity"
+		},
+		{
+			"code": "cordial"
+		},
+		{
+			"code": "criteo"
+		},
+		{
+			"code": "crossinstall"
+		},
+		{
+			"code": "pandora"
+		},
+		{
+			"code": "smartmailer"
+		},
+		{
+			"code": "upsnap"
+		},
+		{
+			"code": "bing_hotel_ads"
+		},
+		{
+			"code": "daum"
+		},
+		{
+			"code": "kayak"
+		},
+		{
+			"code": "naver"
+		},
+		{
+			"code": "doubleclicksearch"
+		},
+		{
+			"code": "madison_logic"
+		},
+		{
+			"code": "stackadapt"
+		},
+		{
+			"code": "integral_ad_science"
+		},
+		{
+			"code": "kenshoo"
+		},
+		{
+			"code": "tubemogul"
+		},
+		{
+			"code": "hintaseuranta"
+		},
+		{
+			"code": "eskimi_dsp"
+		},
+		{
+			"code": "skyscanner"
+		},
+		{
+			"code": "adobe_campaign"
+		},
+		{
+			"code": "thetradedesk"
+		},
+		{
+			"code": "mdirector"
+		},
+		{
+			"code": "vungle"
+		},
+		{
+			"code": "linkedin-ads"
+		},
+		{
+			"code": "bluecore"
+		},
+		{
+			"code": "ls_direct_mail"
+		},
+		{
+			"code": "vkads"
+		},
+		{
+			"code": "datalot"
+		},
+		{
+			"code": "everquote"
+		},
+		{
+			"code": "healthcarecom"
+		},
+		{
+			"code": "inside_response"
+		},
+		{
+			"code": "mediaalpha"
+		},
+		{
+			"code": "nextdoor"
+		},
+		{
+			"code": "quinstreet"
+		},
+		{
+			"code": "quotewizard"
+		},
+		{
+			"code": "transparently"
+		},
+		{
+			"code": "sproutsocial"
+		},
+		{
+			"code": "liveintent"
+		},
+		{
+			"code": "outbrain"
+		},
+		{
+			"code": "adestra"
+		},
+		{
+			"code": "amobee"
+		},
+		{
+			"code": "doubleverify"
+		},
+		{
+			"code": "flashtalking"
+		},
+		{
+			"code": "spotifyads"
+		},
+		{
+			"code": "airship"
+		},
+		{
+			"code": "refersion"
+		},
+		{
+			"code": "rakuten-performance"
+		},
+		{
+			"code": "travel_audience"
+		},
+		{
+			"code": "tripadvisor"
+		},
+		{
+			"code": "mention_me"
+		},
+		{
+			"code": "conversant_media"
+		},
+		{
+			"code": "technolutions_slate"
+		},
+		{
+			"code": "teamwork_projects"
+		},
+		{
+			"code": "voluum"
+		},
+		{
+			"code": "target_circle"
+		},
+		{
+			"code": "everflow"
+		},
+		{
+			"code": "talkable"
+		},
+		{
+			"code": "centro_dsp"
+		},
+		{
+			"code": "waze"
+		},
+		{
+			"code": "line"
+		},
+		{
+			"code": "adperio"
+		},
+		{
+			"code": "ad_ready"
+		},
+		{
+			"code": "drippler"
+		},
+		{
+			"code": "mobvista"
+		},
+		{
+			"code": "moloco"
+		},
+		{
+			"code": "weq"
+		},
+		{
+			"code": "spoteffects"
+		},
+		{
+			"code": "mediatool"
+		},
+		{
+			"code": "smadex"
+		},
+		{
+			"code": "publicideas"
+		},
+		{
+			"code": "google-search-console"
+		},
+		{
+			"code": "kochava"
+		},
+		{
+			"code": "aol_one"
+		},
+		{
+			"code": "roku"
+		},
+		{
+			"code": "contentad"
+		},
+		{
+			"code": "pipedrive"
+		},
+		{
+			"code": "remailme"
+		},
+		{
+			"code": "pepperjam-network"
+		},
+		{
+			"code": "adelphic"
+		},
+		{
+			"code": "groundtruth"
+		},
+		{
+			"code": "hawk"
+		},
+		{
+			"code": "ipinyou"
+		},
+		{
+			"code": "yoyi_digital"
+		},
+		{
+			"code": "referral_candy"
+		},
+		{
+			"code": "rtbhouse"
+		},
+		{
+			"code": "salestring"
+		},
+		{
+			"code": "keap"
+		},
+		{
+			"code": "maropost"
+		},
+		{
+			"code": "spoutable"
+		},
+		{
+			"code": "callerready"
+		},
+		{
+			"code": "ortec_adscience"
+		},
+		{
+			"code": "awin"
+		},
+		{
+			"code": "amplitude"
+		},
+		{
+			"code": "semrush"
+		},
+		{
+			"code": "stripe"
+		},
+		{
+			"code": "iconosquare"
+		},
+		{
+			"code": "propellerads"
+		},
+		{
+			"code": "integrate"
+		},
+		{
+			"code": "voxus"
+		},
+		{
+			"code": "taboola"
+		},
+		{
+			"code": "ad4game"
+		},
+		{
+			"code": "addeals_network"
+		},
+		{
+			"code": "appnext"
+		},
+		{
+			"code": "gamekit"
+		},
+		{
+			"code": "jump_ramp_games"
+		},
+		{
+			"code": "mgid"
+		},
+		{
+			"code": "pch"
+		},
+		{
+			"code": "reflex_affiliates"
+		},
+		{
+			"code": "youtube-publicdata-1"
+		},
+		{
+			"code": "jobtome"
+		},
+		{
+			"code": "jooble"
+		},
+		{
+			"code": "mixpanel"
+		},
+		{
+			"code": "neuvoo"
+		},
+		{
+			"code": "partnerize"
+		},
+		{
+			"code": "resilion"
+		},
+		{
+			"code": "mailchimp_api"
+		},
+		{
+			"code": "doubleclick_bidmanager_api"
+		},
+		{
+			"code": "reddit-ads"
+		},
+		{
+			"code": "shareasale"
+		},
+		{
+			"code": "twitter-ads"
+		},
+		{
+			"code": "moat_analytics"
+		},
+		{
+			"code": "at_internet"
+		},
+		{
+			"code": "makemereach"
+		},
+		{
+			"code": "nielsen_digital_ad_ratings"
+		},
+		{
+			"code": "amazonad-sizmekmdx"
+		},
+		{
+			"code": "beeswax"
+		},
+		{
+			"code": "shenma"
+		},
+		{
+			"code": "amazonad-sizmekdsp"
+		},
+		{
+			"code": "media_buying_systems"
+		},
+		{
+			"code": "brightrolldsp"
+		},
+		{
+			"code": "bigquery"
+		},
+		{
+			"code": "indeed"
+		},
+		{
+			"code": "pinterest-ads"
+		},
+		{
+			"code": "contobox"
+		},
+		{
+			"code": "liveramp"
+		},
+		{
+			"code": "rokt"
+		},
+		{
+			"code": "buy_sell_ads"
+		},
+		{
+			"code": "facebook_insights"
+		},
+		{
+			"code": "linkedin-pageanalytics"
+		},
+		{
+			"code": "simpli_fi"
+		},
+		{
+			"code": "simplifi"
+		},
+		{
+			"code": "cruise_critic"
+		},
+		{
+			"code": "workfront"
+		},
+		{
+			"code": "adikteev"
+		},
+		{
+			"code": "ibm_analytics"
+		},
+		{
+			"code": "setster"
+		},
+		{
+			"code": "the_talent_playbook"
+		},
+		{
+			"code": "dstillery"
+		},
+		{
+			"code": "custobar"
+		},
+		{
+			"code": "zillow"
+		},
+		{
+			"code": "clicktripz"
+		},
+		{
+			"code": "amoma"
+		},
+		{
+			"code": "bookingcom"
+		},
+		{
+			"code": "getyourguide"
+		},
+		{
+			"code": "rentalcarscom"
+		},
+		{
+			"code": "routeperfect"
+		},
+		{
+			"code": "sanctifly"
+		},
+		{
+			"code": "travelcar"
+		},
+		{
+			"code": "viator"
+		},
+		{
+			"code": "listenloop"
+		},
+		{
+			"code": "sanoma"
+		},
+		{
+			"code": "webtrekk"
+		},
+		{
+			"code": "customerio"
+		},
+		{
+			"code": "extole"
+		},
+		{
+			"code": "stat_search_analytics"
+		},
+		{
+			"code": "contactability"
+		},
+		{
+			"code": "renuant"
+		},
+		{
+			"code": "bing-1"
+		},
+		{
+			"code": "impact-radius"
+		},
+		{
+			"code": "tradetracker_api"
+		},
+		{
+			"code": "catchys"
+		},
+		{
+			"code": "onmarus"
+		},
+		{
+			"code": "sovendus"
+		},
+		{
+			"code": "startpagina"
+		},
+		{
+			"code": "globalwide_media"
+		},
+		{
+			"code": "tumblr"
+		},
+		{
+			"code": "idealo"
+		},
+		{
+			"code": "ladenzeile_web"
+		},
+		{
+			"code": "triplelift"
+		},
+		{
+			"code": "lionshome"
+		},
+		{
+			"code": "meubles"
+		},
+		{
+			"code": "moebel"
+		},
+		{
+			"code": "metalyzer"
+		},
+		{
+			"code": "intelliad_suite"
+		},
+		{
+			"code": "seznam"
+		},
+		{
+			"code": "narrativ"
+		},
+		{
+			"code": "campaign_contribution"
+		},
+		{
+			"code": "pricerunner"
+		},
+		{
+			"code": "ividence"
+		},
+		{
+			"code": "sprinklr"
+		},
+		{
+			"code": "miq"
+		},
+		{
+			"code": "tvsquared"
+		},
+		{
+			"code": "webgains"
+		},
+		{
+			"code": "sailthru"
+		},
+		{
+			"code": "yahoo-gemini"
+		},
+		{
+			"code": "podio"
+		},
+		{
+			"code": "tracdelight"
+		},
+		{
+			"code": "shoppers_mind"
+		},
+		{
+			"code": "adara"
+		},
+		{
+			"code": "vistar_media"
+		},
+		{
+			"code": "belboon"
+		},
+		{
+			"code": "direct_digital"
+		},
+		{
+			"code": "seomonitor"
+		},
+		{
+			"code": "obi4wan"
+		},
+		{
+			"code": "liftoff"
+		},
+		{
+			"code": "jubna"
+		},
+		{
+			"code": "upravel"
+		},
+		{
+			"code": "calltrackingmetrics"
+		},
+		{
+			"code": "pocket"
+		},
+		{
+			"code": "spotlist_music"
+		},
+		{
+			"code": "acuity_scheduling"
+		},
+		{
+			"code": "actblue"
+		},
+		{
+			"code": "radarly_analytics"
+		},
+		{
+			"code": "socialbakers"
+		},
+		{
+			"code": "bdx"
+		},
+		{
+			"code": "houzz"
+		},
+		{
+			"code": "ibm_watson"
+		},
+		{
+			"code": "moz"
+		},
+		{
+			"code": "newhomesource_professional"
+		},
+		{
+			"code": "mediaaffairs"
+		},
+		{
+			"code": "campaign_monitor"
+		},
+		{
+			"code": "dataxu"
+		},
+		{
+			"code": "shopalike_web"
+		},
+		{
+			"code": "momondo"
+		},
+		{
+			"code": "insightsquared"
+		},
+		{
+			"code": "sharoo"
+		},
+		{
+			"code": "farecompare"
+		},
+		{
+			"code": "weibo"
+		},
+		{
+			"code": "ad4mat"
+		},
+		{
+			"code": "careverlag"
+		},
+		{
+			"code": "ingenious"
+		},
+		{
+			"code": "kajomi"
+		},
+		{
+			"code": "mpnewmedia"
+		},
+		{
+			"code": "zeropark"
+		},
+		{
+			"code": "twiago"
+		},
+		{
+			"code": "leadalliance"
+		},
+		{
+			"code": "emarsys"
+		},
+		{
+			"code": "gumtree"
+		},
+		{
+			"code": "jodel"
+		},
+		{
+			"code": "maileon"
+		},
+		{
+			"code": "neustar"
+		},
+		{
+			"code": "ironsource"
+		},
+		{
+			"code": "keywee"
+		},
+		{
+			"code": "tune-hasoffers"
+		},
+		{
+			"code": "surehits"
+		},
+		{
+			"code": "nationaladforce"
+		},
+		{
+			"code": "hometiger"
+		},
+		{
+			"code": "manage"
+		},
+		{
+			"code": "close"
+		},
+		{
+			"code": "marin_software"
+		},
+		{
+			"code": "mediaocean"
+		},
+		{
+			"code": "district_m"
+		},
+		{
+			"code": "digital_advisor"
+		},
+		{
+			"code": "adcash"
+		},
+		{
+			"code": "leadbolt"
+		},
+		{
+			"code": "richpush"
+		},
+		{
+			"code": "selfadvertiser"
+		},
+		{
+			"code": "tune"
+		},
+		{
+			"code": "2ememain"
+		},
+		{
+			"code": "kelkoo"
+		},
+		{
+			"code": "livingo"
+		},
+		{
+			"code": "marktplaats_api"
+		},
+		{
+			"code": "shopping24_web"
+		},
+		{
+			"code": "sravni"
+		},
+		{
+			"code": "stylight"
+		},
+		{
+			"code": "vergelijk"
+		},
+		{
+			"code": "brandwatch"
+		},
+		{
+			"code": "ligatus"
+		},
+		{
+			"code": "salecycle"
+		},
+		{
+			"code": "intent_media"
+		},
+		{
+			"code": "fashionchick"
+		},
+		{
+			"code": "netrefer"
+		},
+		{
+			"code": "adswizz"
+		},
+		{
+			"code": "feedonomics"
+		},
+		{
+			"code": "youtube-analytics"
+		},
+		{
+			"code": "clickwise"
+		},
+		{
+			"code": "groupon"
+		},
+		{
+			"code": "dable"
+		},
+		{
+			"code": "daisycon_api"
+		},
+		{
+			"code": "deltaprojects"
+		},
+		{
+			"code": "deltaprojects-sting"
+		},
+		{
+			"code": "depohu"
+		},
+		{
+			"code": "derbysoft"
+		},
+		{
+			"code": "digitalturbine"
+		},
+		{
+			"code": "domodi"
+		},
+		{
+			"code": "effiliation"
+		},
+		{
+			"code": "effinitymartech"
+		},
+		{
+			"code": "emma"
+		},
+		{
+			"code": "evilia"
+		},
+		{
+			"code": "eyereturn"
+		},
+		{
+			"code": "facebookpages"
+		},
+		{
+			"code": "favi"
+		},
+		{
+			"code": "financeads"
+		},
+		{
+			"code": "fluent"
+		},
+		{
+			"code": "geizhals"
+		},
+		{
+			"code": "getprice_web"
+		},
+		{
+			"code": "glami"
+		},
+		{
+			"code": "google-merchantcenter"
+		},
+		{
+			"code": "google-sheets"
+		},
+		{
+			"code": "google-trends"
+		},
+		{
+			"code": "hardwareinfo"
+		},
+		{
+			"code": "tune-network"
+		},
+		{
+			"code": "heurekacz"
+		},
+		{
+			"code": "heurekask"
+		},
+		{
+			"code": "hintaopas"
+		},
+		{
+			"code": "hivewyre"
+		},
+		{
+			"code": "homelookit"
+		},
+		{
+			"code": "hubspot-contacts"
+		},
+		{
+			"code": "hubspot-emailevents"
+		},
+		{
+			"code": "impact"
+		},
+		{
+			"code": "inhaus"
+		},
+		{
+			"code": "instagram-insights-4"
+		},
+		{
+			"code": "ironsourceaura"
+		},
+		{
+			"code": "jampp"
+		},
+		{
+			"code": "jobrapido"
+		},
+		{
+			"code": "kickback"
+		},
+		{
+			"code": "kieskeurig"
+		},
+		{
+			"code": "kijiji"
+		},
+		{
+			"code": "klaviyo"
+		},
+		{
+			"code": "linkedin"
+		},
+		{
+			"code": "linkedin-organic"
+		},
+		{
+			"code": "linkprice"
+		},
+		{
+			"code": "linkwise"
+		},
+		{
+			"code": "liquidm"
+		},
+		{
+			"code": "listrak_email"
+		},
+		{
+			"code": "lockerdome"
+		},
+		{
+			"code": "lyst"
+		},
+		{
+			"code": "magento2"
+		},
+		{
+			"code": "match2one"
+		},
+		{
+			"code": "matelso"
+		},
+		{
+			"code": "meetrixonline"
+		},
+		{
+			"code": "metaio"
+		},
+		{
+			"code": "mybestbrands"
+		},
+		{
+			"code": "myshopping_web"
+		},
+		{
+			"code": "mytarget"
+		},
+		{
+			"code": "najnakup"
+		},
+		{
+			"code": "netaffiliation"
+		},
+		{
+			"code": "nosto"
+		},
+		{
+			"code": "okazje"
+		},
+		{
+			"code": "olcsobbat"
+		},
+		{
+			"code": "salesforce_pardot"
+		},
+		{
+			"code": "partnerads_api"
+		},
+		{
+			"code": "pazaruvaj"
+		},
+		{
+			"code": "pepperjam-ascend"
+		},
+		{
+			"code": "perfectaudience"
+		},
+		{
+			"code": "performmedia"
+		},
+		{
+			"code": "pinterest-organic"
+		},
+		{
+			"code": "postaffiliate"
+		},
+		{
+			"code": "powerspace"
+		},
+		{
+			"code": "pricepanda"
+		},
+		{
+			"code": "pricespy"
+		},
+		{
+			"code": "prisfakta"
+		},
+		{
+			"code": "prisguiden"
+		},
+		{
+			"code": "prisjagt"
+		},
+		{
+			"code": "prisjakt"
+		},
+		{
+			"code": "profitmax"
+		},
+		{
+			"code": "propelmedia"
+		},
+		{
+			"code": "pureshopping"
+		},
+		{
+			"code": "rakuten-affiliatenetwork"
+		},
+		{
+			"code": "recheckit"
+		},
+		{
+			"code": "recruitnow"
+		},
+		{
+			"code": "reddit"
+		},
+		{
+			"code": "remerge"
+		},
+		{
+			"code": "revcontent"
+		},
+		{
+			"code": "salesforce-leads"
+		},
+		{
+			"code": "salesforce-reports"
+		},
+		{
+			"code": "shopbot"
+		},
+		{
+			"code": "shopello"
+		},
+		{
+			"code": "shopmania"
+		},
+		{
+			"code": "shoppingsearch_jp"
+		},
+		{
+			"code": "skapiec"
+		},
+		{
+			"code": "snapchat"
+		},
+		{
+			"code": "softwareadvice"
+		},
+		{
+			"code": "sogou"
+		},
+		{
+			"code": "sourceknowledge"
+		},
+		{
+			"code": "spotashop"
+		},
+		{
+			"code": "startapp"
+		},
+		{
+			"code": "stileo"
+		},
+		{
+			"code": "tapfiliate_api"
+		},
+		{
+			"code": "tapjoy"
+		},
+		{
+			"code": "taptica"
+		},
+		{
+			"code": "terminus"
+		},
+		{
+			"code": "tradedoubler_api"
+		},
+		{
+			"code": "trivago"
+		},
+		{
+			"code": "trovit"
+		},
+		{
+			"code": "tune-advertiser"
+		},
+		{
+			"code": "twenga"
+		},
+		{
+			"code": "twitter"
+		},
+		{
+			"code": "twitter-organic"
+		},
+		{
+			"code": "ugiftideas"
+		},
+		{
+			"code": "unityads"
+		},
+		{
+			"code": "vertaa"
+		},
+		{
+			"code": "welovex"
+		},
+		{
+			"code": "widerplanet"
+		},
+		{
+			"code": "woocommerce"
+		},
+		{
+			"code": "xing"
+		},
+		{
+			"code": "yahoo"
+		},
+		{
+			"code": "yahoojapan-search"
+		},
+		{
+			"code": "yahoojapan-ydn"
+		},
+		{
+			"code": "yandex"
+		},
+		{
+			"code": "yandexdisplay"
+		},
+		{
+			"code": "yandexmarket"
+		},
+		{
+			"code": "yandexmetrica"
+		},
+		{
+			"code": "yelp"
+		},
+		{
+			"code": "yiqifa"
+		},
+		{
+			"code": "youappi"
+		},
+		{
+			"code": "youtube"
+		},
+		{
+			"code": "zbozi"
+		},
+		{
+			"code": "zemanta"
+		},
+		{
+			"code": "appnexus_api"
+		},
+		{
+			"code": "apprl"
+		},
+		{
+			"code": "appsflyer"
+		},
+		{
+			"code": "apsis"
+		},
+		{
+			"code": "arcedula"
+		},
+		{
+			"code": "arukereso"
+		},
+		{
+			"code": "avantlink"
+		},
+		{
+			"code": "awin"
+		},
+		{
+			"code": "google-ads"
+		},
+		{
+			"code": "gemius_adocean"
+		},
+		{
+			"code": "adition"
+		},
+		{
+			"code": "amazon_ads"
+		},
+		{
+			"code": "doubleclick_campaignmanager_api"
+		},
+		{
+			"code": "innovid"
+		},
+		{
+			"code": "mediamath"
+		},
+		{
+			"code": "quantcast"
+		},
+		{
+			"code": "rocket_fuel"
+		},
+		{
+			"code": "tremor_video"
+		},
+		{
+			"code": "viant"
+		},
+		{
+			"code": "readpeak"
+		},
+		{
+			"code": "performission"
+		},
+		{
+			"code": "tweakers_web"
+		},
+		{
+			"code": "oath"
+		},
+		{
+			"code": "aspireiq"
+		},
+		{
+			"code": "better_impression"
+		},
+		{
+			"code": "homefacts"
+		},
+		{
+			"code": "imedia"
+		},
+		{
+			"code": "jswipe"
+		},
+		{
+			"code": "natural_intelligence"
+		},
+		{
+			"code": "weborama"
+		},
+		{
+			"code": "google-mybusiness"
+		},
+		{
+			"code": "convirza"
+		},
+		{
+			"code": "genius_sports"
+		},
+		{
+			"code": "dianomi"
+		},
+		{
+			"code": "everysize"
+		},
+		{
+			"code": "magento"
+		},
+		{
+			"code": "steelhouse_logo"
+		},
+		{
+			"code": "owneriq"
+		},
+		{
+			"code": "ve_interactive"
+		},
+		{
+			"code": "tradelab"
+		},
+		{
+			"code": "dialfire_reports"
+		},
+		{
+			"code": "plista"
+		},
+		{
+			"code": "dialogtech"
+		},
+		{
+			"code": "pushcrew"
+		},
+		{
+			"code": "salesforce-marketingcloud"
+		},
+		{
+			"code": "pinterest-analytics"
+		},
+		{
+			"code": "gamned"
+		},
+		{
+			"code": "cybba"
+		},
+		{
+			"code": "sklik"
+		},
+		{
+			"code": "yardi_voyager"
+		},
+		{
+			"code": "rentcafe_connect"
+		},
+		{
+			"code": "rentcafe_crm"
+		},
+		{
+			"code": "liligo"
+		},
+		{
+			"code": "smarter_travel"
+		},
+		{
+			"code": "ladybug"
+		},
+		{
+			"code": "jetcost"
+		},
+		{
+			"code": "autorentals"
+		},
+		{
+			"code": "stroer_digital"
+		},
+		{
+			"code": "marketo"
+		},
+		{
+			"code": "preisde"
+		},
+		{
+			"code": "outtra"
+		},
+		{
+			"code": "guenstiger"
+		},
+		{
+			"code": "wideorbit"
+		},
+		{
+			"code": "spydialer"
+		},
+		{
+			"code": "rtx_platform"
+		},
+		{
+			"code": "pushnami"
+		},
+		{
+			"code": "powerinbox"
+		},
+		{
+			"code": "peoplefinder"
+		},
+		{
+			"code": "peekyou"
+		},
+		{
+			"code": "ahrefs"
+		},
+		{
+			"code": "preisvergleich"
+		}
+	]
+}

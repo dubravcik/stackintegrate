@@ -1,0 +1,17 @@
+{
+	"name": "Power BI",
+	"type": "reporting",
+	"url": "https://powerbi.com",
+	"status": "incomplete",
+	"sources": [
+		{
+			"code": "sql-server"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "csv"
+		}
+	]
+}

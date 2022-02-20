@@ -1,0 +1,98 @@
+{
+	"name": "DataHub",
+	"type": "data catalog",
+	"url": "https://datahubproject.io",
+	"status":"",
+	"sources": [
+		{
+			"code": "amazon-athena"
+		},
+		{
+			"code": "azure-ad"
+		},
+		{
+			"code": "bigquery"
+		},
+		{
+			"code": "dbt"
+		},
+		{
+			"code": "druid"
+		},
+		{
+			"code": "elastic-search"
+		},
+		{
+			"code": "feast"
+		},
+		{
+			"code": "amazon-glue"
+		},
+		{
+			"code": "hive"
+		},
+		{
+			"code": "kafka"
+		},
+		{
+			"code": "ldap"
+		},
+		{
+			"code": "looker"
+		},
+		{
+			"code": "mariadb"
+		},
+		{
+			"code": "metabase"
+		},
+		{
+			"code": "mode"
+		},
+		{
+			"code": "mongodb"
+		},
+		{
+			"code": "sql-server"
+		},
+		{
+			"code": "mysql"
+		},
+		{
+			"code": "nifi"
+		},
+		{
+			"code": "okta"
+		},
+		{
+			"code": "openapi"
+		},
+		{
+			"code": "oracle"
+		},
+		{
+			"code": "postgresql"
+		},
+		{
+			"code": "redash"
+		},
+		{
+			"code": "redshift"
+		},
+		{
+			"code": "amazon-s3"
+		},
+		{
+			"code": "saga-maker"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "superset"
+		},
+		{
+			"code": "trino"
+		}
+	]
+}

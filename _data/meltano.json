@@ -1,0 +1,1193 @@
+{
+	"name": "Meltano",
+	"type": "data loading",
+	"url": "https://meltano.com",
+	"status": "incomplete destinations",
+	"destinations": [
+		{
+			"code": "bigquery"
+		}
+	],
+	"sources": [
+		{
+			"code": "3plcentral",
+			"url": "https://hub.meltano.com/taps/3plcentral"
+		},
+		{
+			"code": "abcfinancial",
+			"url": "https://hub.meltano.com/taps/abcfinancial"
+		},
+		{
+			"code": "aconex",
+			"url": "https://hub.meltano.com/taps/aconex"
+		},
+		{
+			"code": "activecampaign",
+			"url": "https://hub.meltano.com/taps/activecampaign"
+		},
+		{
+			"code": "acuite",
+			"url": "https://hub.meltano.com/taps/acuite"
+		},
+		{
+			"code": "adroll",
+			"url": "https://hub.meltano.com/taps/adroll"
+		},
+		{
+			"code": "adyen",
+			"url": "https://hub.meltano.com/taps/adyen"
+		},
+		{
+			"code": "agilecrm",
+			"url": "https://hub.meltano.com/taps/agilecrm"
+		},
+		{
+			"code": "urban-airship",
+			"url": "https://hub.meltano.com/taps/urban-airship"
+		},
+		{
+			"code": "airtable",
+			"url": "https://hub.meltano.com/taps/airtable"
+		},
+		{
+			"code": "amazon-advertising",
+			"url": "https://hub.meltano.com/taps/amazon-advertising"
+		},
+		{
+			"code": "amazon-ads-dsp",
+			"url": "https://hub.meltano.com/taps/amazon-ads-dsp"
+		},
+		{
+			"code": "amazon-mws",
+			"url": "https://hub.meltano.com/taps/amazon-mws"
+		},
+		{
+			"code": "anaplan",
+			"url": "https://hub.meltano.com/taps/anaplan"
+		},
+		{
+			"code": "kafka",
+			"url": "https://hub.meltano.com/taps/kafka"
+		},
+		{
+			"code": "apparel-magic",
+			"url": "https://hub.meltano.com/taps/apparel-magic"
+		},
+		{
+			"code": "appfigures",
+			"url": "https://hub.meltano.com/taps/appfigures"
+		},
+		{
+			"code": "appstore",
+			"url": "https://hub.meltano.com/taps/appstore"
+		},
+		{
+			"code": "appsflyer",
+			"url": "https://hub.meltano.com/taps/appsflyer"
+		},
+		{
+			"code": "asana",
+			"url": "https://hub.meltano.com/taps/asana"
+		},
+		{
+			"code": "ask-nicely",
+			"url": "https://hub.meltano.com/taps/ask-nicely"
+		},
+		{
+			"code": "amazon-athena",
+			"url": "https://hub.meltano.com/taps/athena"
+		},
+		{
+			"code": "auth0-logs",
+			"url": "https://hub.meltano.com/taps/auth0-logs"
+		},
+		{
+			"code": "auth0",
+			"url": "https://hub.meltano.com/taps/auth0"
+		},
+		{
+			"code": "autodesk-bim-360",
+			"url": "https://hub.meltano.com/taps/autodesk-bim-360"
+		},
+		{
+			"code": "autopilot",
+			"url": "https://hub.meltano.com/taps/autopilot"
+		},
+		{
+			"code": "awin",
+			"url": "https://hub.meltano.com/taps/awin"
+		},
+		{
+			"code": "awin-advertiser",
+			"url": "https://hub.meltano.com/taps/awin-advertiser"
+		},
+		{
+			"code": "amazon-cost-and-usage-reports",
+			"url": "https://hub.meltano.com/taps/aws-cost-explorer"
+		},
+		{
+			"code": "amazon-s3-csv",
+			"url": "https://hub.meltano.com/taps/s3-csv"
+		},
+		{
+			"code": "basecone",
+			"url": "https://hub.meltano.com/taps/basecone"
+		},
+		{
+			"code": "hellobaton",
+			"url": "https://hub.meltano.com/taps/hellobaton"
+		},
+		{
+			"code": "bazaarvoice",
+			"url": "https://hub.meltano.com/taps/bazaarvoice"
+		},
+		{
+			"code": "bigcommerce",
+			"url": "https://hub.meltano.com/taps/bigcommerce"
+		},
+		{
+			"code": "bigquery",
+			"url": "https://hub.meltano.com/taps/bigquery"
+		},
+		{
+			"code": "billwerk",
+			"url": "https://hub.meltano.com/taps/billwerk"
+		},
+		{
+			"code": "bing-ads",
+			"url": "https://hub.meltano.com/taps/bing-ads"
+		},
+		{
+			"code": "bling-erp",
+			"url": "https://hub.meltano.com/taps/bling-erp"
+		},
+		{
+			"code": "bold",
+			"url": "https://hub.meltano.com/taps/bold"
+		},
+		{
+			"code": "braintree",
+			"url": "https://hub.meltano.com/taps/braintree"
+		},
+		{
+			"code": "brightpearl",
+			"url": "https://hub.meltano.com/taps/brightpearl"
+		},
+		{
+			"code": "bronto",
+			"url": "https://hub.meltano.com/taps/bronto"
+		},
+		{
+			"code": "bls",
+			"url": "https://hub.meltano.com/taps/bls"
+		},
+		{
+			"code": "bynder",
+			"url": "https://hub.meltano.com/taps/bynder"
+		},
+		{
+			"code": "call-cap",
+			"url": "https://hub.meltano.com/taps/call-cap"
+		},
+		{
+			"code": "campaign-monitor",
+			"url": "https://hub.meltano.com/taps/campaign-monitor"
+		},
+		{
+			"code": "carbon-intensity",
+			"url": "https://hub.meltano.com/taps/carbon-intensity"
+		},
+		{
+			"code": "centra",
+			"url": "https://hub.meltano.com/taps/centra"
+		},
+		{
+			"code": "chargebee",
+			"url": "https://hub.meltano.com/taps/chargebee"
+		},
+		{
+			"code": "chargify",
+			"url": "https://hub.meltano.com/taps/chargify"
+		},
+		{
+			"code": "chatitive",
+			"url": "https://hub.meltano.com/taps/chatitive"
+		},
+		{
+			"code": "circle-ci",
+			"url": "https://hub.meltano.com/taps/circle-ci"
+		},
+		{
+			"code": "clarabridge",
+			"url": "https://hub.meltano.com/taps/clarabridge"
+		},
+		{
+			"code": "clickup",
+			"url": "https://hub.meltano.com/taps/clickup"
+		},
+		{
+			"code": "clockify",
+			"url": "https://hub.meltano.com/taps/clockify"
+		},
+		{
+			"code": "closeio",
+			"url": "https://hub.meltano.com/taps/closeio"
+		},
+		{
+			"code": "clover",
+			"url": "https://hub.meltano.com/taps/clover"
+		},
+		{
+			"code": "clubhouse",
+			"url": "https://hub.meltano.com/taps/clubhouse"
+		},
+		{
+			"code": "clubspeed",
+			"url": "https://hub.meltano.com/taps/clubspeed"
+		},
+		{
+			"code": "codat",
+			"url": "https://hub.meltano.com/taps/codat"
+		},
+		{
+			"code": "confluence",
+			"url": "https://hub.meltano.com/taps/confluence"
+		},
+		{
+			"code": "contentful",
+			"url": "https://hub.meltano.com/taps/contentful"
+		},
+		{
+			"code": "coosto",
+			"url": "https://hub.meltano.com/taps/coosto"
+		},
+		{
+			"code": "criteo",
+			"url": "https://hub.meltano.com/taps/criteo"
+		},
+		{
+			"code": "crossbeam",
+			"url": "https://hub.meltano.com/taps/crossbeam"
+		},
+		{
+			"code": "csv",
+			"url": "https://hub.meltano.com/taps/csv"
+		},
+		{
+			"code": "customerx",
+			"url": "https://hub.meltano.com/taps/customerx"
+		},
+		{
+			"code": "daisycon",
+			"url": "https://hub.meltano.com/taps/daisycon"
+		},
+		{
+			"code": "dayforce",
+			"url": "https://hub.meltano.com/taps/dayforce"
+		},
+		{
+			"code": "dbt-artifacts",
+			"url": "https://hub.meltano.com/taps/dbt-artifacts"
+		},
+		{
+			"code": "dbt",
+			"url": "https://hub.meltano.com/taps/dbt"
+		},
+		{
+			"code": "density",
+			"url": "https://hub.meltano.com/taps/density"
+		},
+		{
+			"code": "deputy",
+			"url": "https://hub.meltano.com/taps/deputy"
+		},
+		{
+			"code": "domo",
+			"url": "https://hub.meltano.com/taps/domo"
+		},
+		{
+			"code": "microsoft-dynamics-365",
+			"url": "https://hub.meltano.com/taps/dynamics"
+		},
+		{
+			"code": "amazon-dynamodb",
+			"url": "https://hub.meltano.com/taps/dynamodb"
+		},
+		{
+			"code": "ebay",
+			"url": "https://hub.meltano.com/taps/ebay"
+		},
+		{
+			"code": "eloqua",
+			"url": "https://hub.meltano.com/taps/eloqua"
+		},
+		{
+			"code": "emarsys",
+			"url": "https://hub.meltano.com/taps/emarsys"
+		},
+		{
+			"code": "estoca",
+			"url": "https://hub.meltano.com/taps/estoca"
+		},
+		{
+			"code": "eventbrite",
+			"url": "https://hub.meltano.com/taps/eventbrite"
+		},
+		{
+			"code": "exactsales",
+			"url": "https://hub.meltano.com/taps/exactsales"
+		},
+		{
+			"code": "exchangeratehost",
+			"url": "https://hub.meltano.com/taps/exchangeratehost"
+		},
+		{
+			"code": "exchangeratesapi",
+			"url": "https://hub.meltano.com/taps/exchangeratesapi"
+		},
+		{
+			"code": "fabdb",
+			"url": "https://hub.meltano.com/taps/fabdb"
+		},
+		{
+			"code": "facebook",
+			"url": "https://hub.meltano.com/taps/facebook"
+		},
+		{
+			"code": "facebook-pages",
+			"url": "https://hub.meltano.com/taps/facebook-pages"
+		},
+		{
+			"code": "facebook-posts",
+			"url": "https://hub.meltano.com/taps/facebook-posts"
+		},
+		{
+			"code": "facebook-reviews",
+			"url": "https://hub.meltano.com/taps/facebook-reviews"
+		},
+		{
+			"code": "fastly",
+			"url": "https://hub.meltano.com/taps/fastly"
+		},
+		{
+			"code": "feed",
+			"url": "https://hub.meltano.com/taps/feed"
+		},
+		{
+			"code": "five9",
+			"url": "https://hub.meltano.com/taps/five9"
+		},
+		{
+			"code": "fixerio",
+			"url": "https://hub.meltano.com/taps/fixerio"
+		},
+		{
+			"code": "forecast",
+			"url": "https://hub.meltano.com/taps/forecast"
+		},
+		{
+			"code": "freshdesk",
+			"url": "https://hub.meltano.com/taps/freshdesk"
+		},
+		{
+			"code": "front",
+			"url": "https://hub.meltano.com/taps/frontapp"
+		},
+		{
+			"code": "fulfil",
+			"url": "https://hub.meltano.com/taps/fulfil"
+		},
+		{
+			"code": "fullstory",
+			"url": "https://hub.meltano.com/taps/fullstory"
+		},
+		{
+			"code": "purecloud",
+			"url": "https://hub.meltano.com/taps/purecloud"
+		},
+		{
+			"code": "github",
+			"url": "https://hub.meltano.com/taps/github"
+		},
+		{
+			"code": "github-org-projects",
+			"url": "https://hub.meltano.com/taps/github-org-projects"
+		},
+		{
+			"code": "github-search",
+			"url": "https://hub.meltano.com/taps/github-search"
+		},
+		{
+			"code": "gitlab",
+			"url": "https://hub.meltano.com/taps/gitlab"
+		},
+		{
+			"code": "gleantap",
+			"url": "https://hub.meltano.com/taps/gleantap"
+		},
+		{
+			"code": "gmail",
+			"url": "https://hub.meltano.com/taps/gmail"
+		},
+		{
+			"code": "gmail-csv",
+			"url": "https://hub.meltano.com/taps/gmail-csv"
+		},
+		{
+			"code": "google-ads",
+			"url": "https://hub.meltano.com/taps/adwords"
+		},
+		{
+			"code": "google-analytics",
+			"url": "https://hub.meltano.com/taps/google-analytics"
+		},
+		{
+			"code": "search-ads",
+			"url": "https://hub.meltano.com/taps/search-ads"
+		},
+		{
+			"code": "google-search-console",
+			"url": "https://hub.meltano.com/taps/google-search-console"
+		},
+		{
+			"code": "google-sheets",
+			"url": "https://hub.meltano.com/taps/google-sheets"
+		},
+		{
+			"code": "gorgias",
+			"url": "https://hub.meltano.com/taps/gorgias"
+		},
+		{
+			"code": "greenhouse",
+			"url": "https://hub.meltano.com/taps/greenhouse"
+		},
+		{
+			"code": "harvest",
+			"url": "https://hub.meltano.com/taps/harvest"
+		},
+		{
+			"code": "harvest-forecast",
+			"url": "https://hub.meltano.com/taps/harvest-forecast"
+		},
+		{
+			"code": "helpscout",
+			"url": "https://hub.meltano.com/taps/helpscout"
+		},
+		{
+			"code": "helpshift",
+			"url": "https://hub.meltano.com/taps/helpshift"
+		},
+		{
+			"code": "holidays",
+			"url": "https://hub.meltano.com/taps/holidays"
+		},
+		{
+			"code": "hubplanner",
+			"url": "https://hub.meltano.com/taps/hubplanner"
+		},
+		{
+			"code": "hubspot",
+			"url": "https://hub.meltano.com/taps/hubspot"
+		},
+		{
+			"code": "db2",
+			"url": "https://hub.meltano.com/taps/db2"
+		},
+		{
+			"code": "idealo-click-report",
+			"url": "https://hub.meltano.com/taps/idealo-click-report"
+		},
+		{
+			"code": "ilevel",
+			"url": "https://hub.meltano.com/taps/ilevel"
+		},
+		{
+			"code": "immuta",
+			"url": "https://hub.meltano.com/taps/immuta"
+		},
+		{
+			"code": "impact",
+			"url": "https://hub.meltano.com/taps/impact"
+		},
+		{
+			"code": "indeed",
+			"url": "https://hub.meltano.com/taps/indeed"
+		},
+		{
+			"code": "insided",
+			"url": "https://hub.meltano.com/taps/insided"
+		},
+		{
+			"code": "insightly",
+			"url": "https://hub.meltano.com/taps/insightly"
+		},
+		{
+			"code": "intercom",
+			"url": "https://hub.meltano.com/taps/intercom"
+		},
+		{
+			"code": "invoiced",
+			"url": "https://hub.meltano.com/taps/invoiced"
+		},
+		{
+			"code": "ireckonu",
+			"url": "https://hub.meltano.com/taps/ireckonu"
+		},
+		{
+			"code": "iterable",
+			"url": "https://hub.meltano.com/taps/iterable"
+		},
+		{
+			"code": "jira",
+			"url": "https://hub.meltano.com/taps/jira"
+		},
+		{
+			"code": "kanbanize",
+			"url": "https://hub.meltano.com/taps/kanbanize"
+		},
+		{
+			"code": "klaviyo",
+			"url": "https://hub.meltano.com/taps/klaviyo"
+		},
+		{
+			"code": "kustomer",
+			"url": "https://hub.meltano.com/taps/kustomer"
+		},
+		{
+			"code": "kwanko",
+			"url": "https://hub.meltano.com/taps/kwanko"
+		},
+		{
+			"code": "lever",
+			"url": "https://hub.meltano.com/taps/lever"
+		},
+		{
+			"code": "linkedin-ads",
+			"url": "https://hub.meltano.com/taps/linkedin-ads"
+		},
+		{
+			"code": "listen360",
+			"url": "https://hub.meltano.com/taps/listen360"
+		},
+		{
+			"code": "listrak",
+			"url": "https://hub.meltano.com/taps/listrak"
+		},
+		{
+			"code": "livechat",
+			"url": "https://hub.meltano.com/taps/livechat"
+		},
+		{
+			"code": "liveperson",
+			"url": "https://hub.meltano.com/taps/liveperson"
+		},
+		{
+			"code": "grader",
+			"url": "https://hub.meltano.com/taps/grader"
+		},
+		{
+			"code": "logmeinrescue",
+			"url": "https://hub.meltano.com/taps/logmeinrescue"
+		},
+		{
+			"code": "looker",
+			"url": "https://hub.meltano.com/taps/looker"
+		},
+		{
+			"code": "lookml",
+			"url": "https://hub.meltano.com/taps/lookml"
+		},
+		{
+			"code": "loopreturns",
+			"url": "https://hub.meltano.com/taps/loopreturns"
+		},
+		{
+			"code": "maestroqa",
+			"url": "https://hub.meltano.com/taps/maestroqa"
+		},
+		{
+			"code": "mailchimp",
+			"url": "https://hub.meltano.com/taps/mailchimp"
+		},
+		{
+			"code": "mailgun",
+			"url": "https://hub.meltano.com/taps/mailgun"
+		},
+		{
+			"code": "mailshake",
+			"url": "https://hub.meltano.com/taps/mailshake"
+		},
+		{
+			"code": "mambu",
+			"url": "https://hub.meltano.com/taps/mambu"
+		},
+		{
+			"code": "marketman",
+			"url": "https://hub.meltano.com/taps/marketman"
+		},
+		{
+			"code": "marketo",
+			"url": "https://hub.meltano.com/taps/marketo"
+		},
+		{
+			"code": "mavenlink",
+			"url": "https://hub.meltano.com/taps/mavenlink"
+		},
+		{
+			"code": "meltano",
+			"url": "https://hub.meltano.com/taps/meltano"
+		},
+		{
+			"code": "sql-server",
+			"url": "https://hub.meltano.com/taps/mssql"
+		},
+		{
+			"code": "microsoft-teams",
+			"url": "https://hub.meltano.com/taps/ms-teams"
+		},
+		{
+			"code": "mixpanel",
+			"url": "https://hub.meltano.com/taps/mixpanel"
+		},
+		{
+			"code": "mode",
+			"url": "https://hub.meltano.com/taps/mode"
+		},
+		{
+			"code": "mongodb",
+			"url": "https://hub.meltano.com/taps/mongodb"
+		},
+		{
+			"code": "mysql",
+			"url": "https://hub.meltano.com/taps/mysql"
+		},
+		{
+			"code": "netlify",
+			"url": "https://hub.meltano.com/taps/netlify"
+		},
+		{
+			"code": "netsuite",
+			"url": "https://hub.meltano.com/taps/netsuite"
+		},
+		{
+			"code": "newrelic",
+			"url": "https://hub.meltano.com/taps/newrelic"
+		},
+		{
+			"code": "nikabot",
+			"url": "https://hub.meltano.com/taps/nikabot"
+		},
+		{
+			"code": "officernd",
+			"url": "https://hub.meltano.com/taps/officernd"
+		},
+		{
+			"code": "okta",
+			"url": "https://hub.meltano.com/taps/okta"
+		},
+		{
+			"code": "onfleet",
+			"url": "https://hub.meltano.com/taps/onfleet"
+		},
+		{
+			"code": "open-library",
+			"url": "https://hub.meltano.com/taps/open-library"
+		},
+		{
+			"code": "openweathermap",
+			"url": "https://hub.meltano.com/taps/openweathermap"
+		},
+		{
+			"code": "oracle",
+			"url": "https://hub.meltano.com/taps/oracle"
+		},
+		{
+			"code": "orbit",
+			"url": "https://hub.meltano.com/taps/orbit"
+		},
+		{
+			"code": "ordway",
+			"url": "https://hub.meltano.com/taps/ordway"
+		},
+		{
+			"code": "outbrain",
+			"url": "https://hub.meltano.com/taps/outbrain"
+		},
+		{
+			"code": "outreach",
+			"url": "https://hub.meltano.com/taps/outreach"
+		},
+		{
+			"code": "pagerduty",
+			"url": "https://hub.meltano.com/taps/pagerduty"
+		},
+		{
+			"code": "pardot",
+			"url": "https://hub.meltano.com/taps/pardot"
+		},
+		{
+			"code": "parquet",
+			"url": "https://hub.meltano.com/taps/parquet"
+		},
+		{
+			"code": "paypal",
+			"url": "https://hub.meltano.com/taps/paypal"
+		},
+		{
+			"code": "peloton",
+			"url": "https://hub.meltano.com/taps/peloton"
+		},
+		{
+			"code": "pendo",
+			"url": "https://hub.meltano.com/taps/pendo"
+		},
+		{
+			"code": "pepperjam",
+			"url": "https://hub.meltano.com/taps/pepperjam"
+		},
+		{
+			"code": "persistiq",
+			"url": "https://hub.meltano.com/taps/persistiq"
+		},
+		{
+			"code": "pinterest-ads",
+			"url": "https://hub.meltano.com/taps/pinterest-ads"
+		},
+		{
+			"code": "pipedrive",
+			"url": "https://hub.meltano.com/taps/pipedrive"
+		},
+		{
+			"code": "pivotal-tracker",
+			"url": "https://hub.meltano.com/taps/pivotal-tracker"
+		},
+		{
+			"code": "platformpurple",
+			"url": "https://hub.meltano.com/taps/platformpurple"
+		},
+		{
+			"code": "postgresql",
+			"url": "https://hub.meltano.com/taps/postgres"
+		},
+		{
+			"code": "postmark",
+			"url": "https://hub.meltano.com/taps/postmark"
+		},
+		{
+			"code": "powerbi-metadata",
+			"url": "https://hub.meltano.com/taps/powerbi-metadata"
+		},
+		{
+			"code": "process-street",
+			"url": "https://hub.meltano.com/taps/process-street"
+		},
+		{
+			"code": "procore",
+			"url": "https://hub.meltano.com/taps/procore"
+		},
+		{
+			"code": "prometheus",
+			"url": "https://hub.meltano.com/taps/prometheus"
+		},
+		{
+			"code": "quaderno",
+			"url": "https://hub.meltano.com/taps/quaderno"
+		},
+		{
+			"code": "quickbase",
+			"url": "https://hub.meltano.com/taps/quickbase"
+		},
+		{
+			"code": "quickbooks",
+			"url": "https://hub.meltano.com/taps/quickbooks"
+		},
+		{
+			"code": "rakuten",
+			"url": "https://hub.meltano.com/taps/rakuten"
+		},
+		{
+			"code": "recharge",
+			"url": "https://hub.meltano.com/taps/recharge"
+		},
+		{
+			"code": "recruitee",
+			"url": "https://hub.meltano.com/taps/recruitee"
+		},
+		{
+			"code": "recurly",
+			"url": "https://hub.meltano.com/taps/recurly"
+		},
+		{
+			"code": "redash",
+			"url": "https://hub.meltano.com/taps/redash"
+		},
+		{
+			"code": "redshift",
+			"url": "https://hub.meltano.com/taps/redshift"
+		},
+		{
+			"code": "referral-saasquatch",
+			"url": "https://hub.meltano.com/taps/referral-saasquatch"
+		},
+		{
+			"code": "responsys",
+			"url": "https://hub.meltano.com/taps/responsys"
+		},
+		{
+			"code": "restapi",
+			"url": "https://hub.meltano.com/taps/restapi"
+		},
+		{
+			"code": "reviewscouk",
+			"url": "https://hub.meltano.com/taps/reviewscouk"
+		},
+		{
+			"code": "revinate",
+			"url": "https://hub.meltano.com/taps/revinate"
+		},
+		{
+			"code": "richpanel",
+			"url": "https://hub.meltano.com/taps/richpanel"
+		},
+		{
+			"code": "rick-and-morty",
+			"url": "https://hub.meltano.com/taps/rick-and-morty"
+		},
+		{
+			"code": "ringcentral",
+			"url": "https://hub.meltano.com/taps/ringcentral"
+		},
+		{
+			"code": "rockgympro",
+			"url": "https://hub.meltano.com/taps/rockgympro"
+		},
+		{
+			"code": "saasoptics",
+			"url": "https://hub.meltano.com/taps/saasoptics"
+		},
+		{
+			"code": "intacct",
+			"url": "https://hub.meltano.com/taps/intacct"
+		},
+		{
+			"code": "sailthru",
+			"url": "https://hub.meltano.com/taps/sailthru"
+		},
+		{
+			"code": "salesforce",
+			"url": "https://hub.meltano.com/taps/salesforce"
+		},
+		{
+			"code": "exacttarget",
+			"url": "https://hub.meltano.com/taps/exacttarget"
+		},
+		{
+			"code": "webcrawl",
+			"url": "https://hub.meltano.com/taps/webcrawl"
+		},
+		{
+			"code": "selligent",
+			"url": "https://hub.meltano.com/taps/selligent"
+		},
+		{
+			"code": "sendgrid",
+			"url": "https://hub.meltano.com/taps/sendgrid"
+		},
+		{
+			"code": "sendinblue",
+			"url": "https://hub.meltano.com/taps/sendinblue"
+		},
+		{
+			"code": "sentry",
+			"url": "https://hub.meltano.com/taps/sentry"
+		},
+		{
+			"code": "servicem8",
+			"url": "https://hub.meltano.com/taps/servicem8"
+		},
+		{
+			"code": "sevenrooms",
+			"url": "https://hub.meltano.com/taps/sevenrooms"
+		},
+		{
+			"code": "sftp",
+			"url": "https://hub.meltano.com/taps/sftp"
+		},
+		{
+			"code": "shiphero",
+			"url": "https://hub.meltano.com/taps/shiphero"
+		},
+		{
+			"code": "shipstation",
+			"url": "https://hub.meltano.com/taps/shipstation"
+		},
+		{
+			"code": "shopify",
+			"url": "https://hub.meltano.com/taps/shopify"
+		},
+		{
+			"code": "signonsite",
+			"url": "https://hub.meltano.com/taps/signonsite"
+		},
+		{
+			"code": "simplifi",
+			"url": "https://hub.meltano.com/taps/simplifi"
+		},
+		{
+			"code": "sklik",
+			"url": "https://hub.meltano.com/taps/sklik"
+		},
+		{
+			"code": "skubana",
+			"url": "https://hub.meltano.com/taps/skubana"
+		},
+		{
+			"code": "slack",
+			"url": "https://hub.meltano.com/taps/slack"
+		},
+		{
+			"code": "sling",
+			"url": "https://hub.meltano.com/taps/sling"
+		},
+		{
+			"code": "storetraffic",
+			"url": "https://hub.meltano.com/taps/storetraffic"
+		},
+		{
+			"code": "snapchat-ads",
+			"url": "https://hub.meltano.com/taps/snapchat-ads"
+		},
+		{
+			"code": "snapengage",
+			"url": "https://hub.meltano.com/taps/snapengage"
+		},
+		{
+			"code": "snowflake",
+			"url": "https://hub.meltano.com/taps/snowflake"
+		},
+		{
+			"code": "solarvista",
+			"url": "https://hub.meltano.com/taps/solarvista"
+		},
+		{
+			"code": "spotify",
+			"url": "https://hub.meltano.com/taps/spotify"
+		},
+		{
+			"code": "spreadsheets-anywhere",
+			"url": "https://hub.meltano.com/taps/spreadsheets-anywhere"
+		},
+		{
+			"code": "square",
+			"url": "https://hub.meltano.com/taps/square"
+		},
+		{
+			"code": "stackexchange",
+			"url": "https://hub.meltano.com/taps/stackexchange"
+		},
+		{
+			"code": "starshipit",
+			"url": "https://hub.meltano.com/taps/starshipit"
+		},
+		{
+			"code": "stella",
+			"url": "https://hub.meltano.com/taps/stella"
+		},
+		{
+			"code": "strava",
+			"url": "https://hub.meltano.com/taps/strava"
+		},
+		{
+			"code": "stringee",
+			"url": "https://hub.meltano.com/taps/stringee"
+		},
+		{
+			"code": "stripe",
+			"url": "https://hub.meltano.com/taps/stripe"
+		},
+		{
+			"code": "sumologic",
+			"url": "https://hub.meltano.com/taps/sumologic"
+		},
+		{
+			"code": "surveymonkey",
+			"url": "https://hub.meltano.com/taps/surveymonkey"
+		},
+		{
+			"code": "taboola",
+			"url": "https://hub.meltano.com/taps/taboola"
+		},
+		{
+			"code": "teamwork",
+			"url": "https://hub.meltano.com/taps/teamwork"
+		},
+		{
+			"code": "telemetrics",
+			"url": "https://hub.meltano.com/taps/telemetrics"
+		},
+		{
+			"code": "lotr",
+			"url": "https://hub.meltano.com/taps/lotr"
+		},
+		{
+			"code": "thunderboard",
+			"url": "https://hub.meltano.com/taps/thunderboard"
+		},
+		{
+			"code": "tickettailor",
+			"url": "https://hub.meltano.com/taps/tickettailor"
+		},
+		{
+			"code": "tiktok",
+			"url": "https://hub.meltano.com/taps/tiktok"
+		},
+		{
+			"code": "timebutler",
+			"url": "https://hub.meltano.com/taps/timebutler"
+		},
+		{
+			"code": "toast",
+			"url": "https://hub.meltano.com/taps/toast"
+		},
+		{
+			"code": "toggl",
+			"url": "https://hub.meltano.com/taps/toggl"
+		},
+		{
+			"code": "treez",
+			"url": "https://hub.meltano.com/taps/treez"
+		},
+		{
+			"code": "trello",
+			"url": "https://hub.meltano.com/taps/trello"
+		},
+		{
+			"code": "trustpilot",
+			"url": "https://hub.meltano.com/taps/trustpilot"
+		},
+		{
+			"code": "twilio",
+			"url": "https://hub.meltano.com/taps/twilio"
+		},
+		{
+			"code": "twinfield",
+			"url": "https://hub.meltano.com/taps/twinfield"
+		},
+		{
+			"code": "twitter",
+			"url": "https://hub.meltano.com/taps/twitter"
+		},
+		{
+			"code": "twitter-ads",
+			"url": "https://hub.meltano.com/taps/twitter-ads"
+		},
+		{
+			"code": "twitter-streams",
+			"url": "https://hub.meltano.com/taps/twitter-streams"
+		},
+		{
+			"code": "typeform",
+			"url": "https://hub.meltano.com/taps/typeform"
+		},
+		{
+			"code": "typo",
+			"url": "https://hub.meltano.com/taps/typo"
+		},
+		{
+			"code": "udemy-for-business",
+			"url": "https://hub.meltano.com/taps/udemy-for-business"
+		},
+		{
+			"code": "ujet",
+			"url": "https://hub.meltano.com/taps/ujet"
+		},
+		{
+			"code": "uservoice",
+			"url": "https://hub.meltano.com/taps/uservoice"
+		},
+		{
+			"code": "vnda-ecommerce",
+			"url": "https://hub.meltano.com/taps/vnda-ecommerce"
+		},
+		{
+			"code": "walkscore",
+			"url": "https://hub.meltano.com/taps/walkscore"
+		},
+		{
+			"code": "webcrm",
+			"url": "https://hub.meltano.com/taps/webcrm"
+		},
+		{
+			"code": "wonolo",
+			"url": "https://hub.meltano.com/taps/wonolo"
+		},
+		{
+			"code": "woocommerce",
+			"url": "https://hub.meltano.com/taps/woocommerce"
+		},
+		{
+			"code": "wootric",
+			"url": "https://hub.meltano.com/taps/wootric"
+		},
+		{
+			"code": "wordpress-plugin-stats",
+			"url": "https://hub.meltano.com/taps/wordpress-plugin-stats"
+		},
+		{
+			"code": "wordpress-reviews",
+			"url": "https://hub.meltano.com/taps/wordpress-reviews"
+		},
+		{
+			"code": "wordpress-stats",
+			"url": "https://hub.meltano.com/taps/wordpress-stats"
+		},
+		{
+			"code": "workday-raas",
+			"url": "https://hub.meltano.com/taps/workday-raas"
+		},
+		{
+			"code": "workramp",
+			"url": "https://hub.meltano.com/taps/workramp"
+		},
+		{
+			"code": "xero",
+			"url": "https://hub.meltano.com/taps/xero"
+		},
+		{
+			"code": "yotpo",
+			"url": "https://hub.meltano.com/taps/yotpo"
+		},
+		{
+			"code": "youtube-analytics",
+			"url": "https://hub.meltano.com/taps/youtube-analytics"
+		},
+		{
+			"code": "zendesk",
+			"url": "https://hub.meltano.com/taps/zendesk"
+		},
+		{
+			"code": "zendesk-chat",
+			"url": "https://hub.meltano.com/taps/zendesk-chat"
+		},
+		{
+			"code": "zendesk-sell",
+			"url": "https://hub.meltano.com/taps/zendesk-sell"
+		},
+		{
+			"code": "zenefits",
+			"url": "https://hub.meltano.com/taps/zenefits"
+		},
+		{
+			"code": "zenhub",
+			"url": "https://hub.meltano.com/taps/zenhub"
+		},
+		{
+			"code": "zoom",
+			"url": "https://hub.meltano.com/taps/zoom"
+		},
+		{
+			"code": "zuora",
+			"url": "https://hub.meltano.com/taps/zuora"
+		}
+	]
+}

@@ -1,0 +1,858 @@
+{
+	"name": "Keboola",
+	"type": "data loading",
+	"url": "https://keboola.com",
+	"status": "needs renaming",
+	"destinations": [
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-aws-s3",
+			"code": "amazon-s3"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-db-hive",
+			"code": "hive"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-azure-blob",
+			"code": "azure-blob"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-azure-event-hub",
+			"code": "azure-event-hub"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-clever-analytics",
+			"code": "clever-analytics"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-db-impala",
+			"code": "impala"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-dropbox-v2",
+			"code": "dropbox"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-dynamodb",
+			"code": "amazon-dynamodb"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-elasticsearch",
+			"code": "elasticsearch"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-ftp",
+			"code": "ftp"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-fakturoid",
+			"code": "fakturoid"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-firebolt",
+			"code": "firebolt"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-generic",
+			"code": "generic"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-gooddata",
+			"code": "gooddata"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-google-bigquery-v2",
+			"code": "google-bigquery"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-google-cloud-storage",
+			"code": "google-cloud-storage"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-google-drive",
+			"code": "google-drive"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-google-sheets",
+			"code": "google-sheets"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-graphql",
+			"code": "graphql"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-hubspot",
+			"code": "hubspot"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-dashdb",
+			"code": "dashdb"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-intercom",
+			"code": "intercom"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-storage",
+			"code": "storage"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-klaviyo",
+			"code": "klaviyo"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-looker-v2",
+			"code": "looker"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-lytics-v2",
+			"code": "lytics"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-ms-sharepoint-lists",
+			"code": "ms-sharepoint-lists"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-mailchimp",
+			"code": "mailchimp"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-mailkit",
+			"code": "mailkit"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-microsoft-dynamics",
+			"code": "microsoft-dynamics"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-db-mysql",
+			"code": "mysql"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-onedrive",
+			"code": "onedrive"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-db-oracle",
+			"code": "oracle"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-db-pgsql",
+			"code": "postgresql"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-powerbi",
+			"code": "powerbi"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-redshift-v2",
+			"code": "redshift"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-s3",
+			"code": "s3"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-sftp",
+			"code": "sftp"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-sftp-webdav",
+			"code": "sftp-webdav"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-db-mssql-v2",
+			"code": "sql-server"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-salesforce",
+			"code": "salesforce"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-salesforce-analytics-cloud",
+			"code": "salesforce-analytics-cloud"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-silverpop",
+			"code": "silverpop"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-sisense",
+			"code": "sisense"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-db-snowflake",
+			"code": "snowflake"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-snowflake-blob-storage",
+			"code": "snowflake-blob-storage"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-stories",
+			"code": "stories"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-synapse",
+			"code": "azure-synapse"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-tde-expo",
+			"code": "tde-expo"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-talon-one-coupon",
+			"code": "talon-one-coupon"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-thoughtspot",
+			"code": "thoughtspot"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-twilio",
+			"code": "twilio"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-kbl_csv_s3_xlsx",
+			"code": "kbl_csv_s3_xlsx"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-yourpass",
+			"code": "yourpass"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-zendesk",
+			"code": "zendesk"
+		},
+		{
+			"url": "https://www.keboola.com/components/connect-data-to-app-zoom-registrato",
+			"code": "app-zoom-registrato"
+		}
+	],
+	"sources": [
+		{
+			"url": "https://www.keboola.com/components/export-data-from-2performant",
+			"code": "2performant"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-ares-opendata",
+			"code": "ares-opendata"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-aws-cost-and-usage-reports",
+			"code": "amazon-cost-and-usage-reports"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-aws-s3",
+			"code": "amazon-s3"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-activecampaign",
+			"code": "activecampaign"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-adform-masterdata",
+			"code": "adform-masterdata"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-adform",
+			"code": "adform"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-adform-reports",
+			"code": "adform-reports"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-hive",
+			"code": "hive"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-apify",
+			"code": "apify"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-appsflyer",
+			"code": "appsflyer"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-asana",
+			"code": "asana"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-asana-v2",
+			"code": "asana"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-azor",
+			"code": "azor"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-azure-blob",
+			"code": "azure-blob"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-azure-blob-storage-v2",
+			"code": "azure-blob-storage-v2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-azure-cost-management",
+			"code": "azure-cost-management"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-azure-cost-management-sp",
+			"code": "azure-cost-management-sp"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-azure-data-lake-gen2",
+			"code": "azure-data-lake-gen2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-azure-storage-table",
+			"code": "azure-storage-table"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-gooddata-basic",
+			"code": "gooddata-basic"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-bingads",
+			"code": "bing-ads"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-bitbucket",
+			"code": "bitbucket"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-brightloom",
+			"code": "brightloom"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-ca-rally",
+			"code": "ca-rally"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-cj-affiliate",
+			"code": "cj-affiliate"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-csob-ceb",
+			"code": "csob-ceb"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-ftp-csas",
+			"code": "ftp-csas"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-csv-import",
+			"code": "csv-import"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-impala",
+			"code": "impala"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-collabim",
+			"code": "collabim"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-conductor",
+			"code": "conductor"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-cosmosdb",
+			"code": "cosmosdb"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-criteo",
+			"code": "criteo"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-customer-io",
+			"code": "customer-io"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-app-daktela",
+			"code": "app-daktela"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-dark-sky-augmentation",
+			"code": "dark-sky-augmentation"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-drive-cx",
+			"code": "drive-cx"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-dropbox-v2",
+			"code": "dropbox"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-dynamodb",
+			"code": "dynamodb"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-currency",
+			"code": "currency"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-elasticsearch",
+			"code": "elasticsearch"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-email-attachments",
+			"code": "email-attachments"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-favi",
+			"code": "favi"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-ftp",
+			"code": "ftp"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-facebook-ads",
+			"code": "facebook-ads-insights"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-facebook",
+			"code": "facebook"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-fakturoid",
+			"code": "fakturoid"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-fedger",
+			"code": "fedger"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-fingera",
+			"code": "fingera"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-firebird",
+			"code": "firebird"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-flexibee",
+			"code": "flexibee"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-freelo",
+			"code": "freelo"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-freshdesk",
+			"code": "freshdesk"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-generic-v2",
+			"code": "generic-v2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-ag-geocoding",
+			"code": "ag-geocoding"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-github",
+			"code": "github"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-gmail-attachments",
+			"code": "gmail-attachments"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-gmail",
+			"code": "gmail"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-gooddata",
+			"code": "gooddata"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-ad-manager-report-service",
+			"code": "google-ad-manager-report-service"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-ad-manager",
+			"code": "google-ad-manager"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-adwords-reports-v201809",
+			"code": "google-adwords-reports-v201809"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-analytics-v4",
+			"code": "google-analytics-v4"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-analytics-v6",
+			"code": "google-analytics-v6"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-bigquery-v2",
+			"code": "google-bigquery-v2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-bigquery-v2-avro-files",
+			"code": "google-bigquery-v2-avro-files"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-gcalendar",
+			"code": "google-calendar"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-drive",
+			"code": "google-drive"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-my-business",
+			"code": "google-my-business"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google_places_reviews",
+			"code": "google-places-reviews"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google-search-console",
+			"code": "google-search-console"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-google_trends",
+			"code": "google-trends"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-http",
+			"code": "http"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-heureka-cz",
+			"code": "heureka-cz"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-heureka-sk",
+			"code": "heureka-sk"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-hubspot-crm",
+			"code": "hubspot"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-db2",
+			"code": "db2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-instagram",
+			"code": "instagram"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-intercom-v2",
+			"code": "intercom"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-jira",
+			"code": "jira"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-kbc-project-metadata-v2",
+			"code": "kbc-project-metadata-v2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-storage",
+			"code": "storage"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-klaviyo",
+			"code": "klaviyo"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-linkedin",
+			"code": "linkedin-ads"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-looker",
+			"code": "looker"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-lytics",
+			"code": "lytics"
+		},
+		{
+			"url": "https://www.keboola.com/components/ex-lytics",
+			"code": "lytics"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-ms-sharepoint",
+			"code": "ms-sharepoint"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-magento",
+			"code": "magento"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-magento2",
+			"code": "magento2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-mailchimp",
+			"code": "mailchimp"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-mailchimp-export-api",
+			"code": "mailchimp-export-api"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-mailkit",
+			"code": "mailkit"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-majestic",
+			"code": "majestic"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-marketing-miner",
+			"code": "marketing-miner"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-marketo",
+			"code": "marketo"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-marketo-bulk-v2",
+			"code": "marketo-bulk-v2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-microsoft-dynamics",
+			"code": "microsoft-dynamics-365"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-mssql",
+			"code": "sql-server"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-mixpanel",
+			"code": "mixpanel"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-mongodb",
+			"code": "mongodb"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-mysql",
+			"code": "mysql"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-neo4j",
+			"code": "neo4j"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-onedrive",
+			"code": "onedrive"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-ooyala",
+			"code": "ooyala"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-oracle",
+			"code": "oracle"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-pop3-attachment",
+			"code": "pop3-attachment"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-papertrail",
+			"code": "papertrail"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-pardot",
+			"code": "pardot"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-paymo",
+			"code": "paymo"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-pingdom",
+			"code": "pingdom"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-pipedrive",
+			"code": "pipedrive"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-plantyst",
+			"code": "plantyst"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-pgsql",
+			"code": "postgresql"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-pricemania-sk",
+			"code": "pricemania-sk"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-quickbooks",
+			"code": "quickbooks"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-quintly",
+			"code": "quintly"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-rtb-house-v5",
+			"code": "rtb-house-v5"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-redshift",
+			"code": "redshift"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-reviewtrackers",
+			"code": "reviewtrackers"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-sailthru",
+			"code": "sailthru"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-salesforce-v2",
+			"code": "salesforce"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-satismeter",
+			"code": "satismeter"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-segment",
+			"code": "segment"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-share-a-sale",
+			"code": "share-a-sale"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-shopify",
+			"code": "shopify"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-shoptet-permalink",
+			"code": "shoptet-permalink"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-silverpop",
+			"code": "silverpop"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-sklik",
+			"code": "sklik"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-slack",
+			"code": "slack"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-smartsupp",
+			"code": "smartsupp"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-snapchat-marketing",
+			"code": "snapchat-marketing"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-db-snowflake",
+			"code": "snowflake"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-srovname-cz",
+			"code": "srovname-cz"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-stripe",
+			"code": "stripe"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-survey-monkey",
+			"code": "survey-monkey"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-talon-one",
+			"code": "talon-one"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-telemetry-data",
+			"code": "telemetry-data"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-teradata",
+			"code": "teradata"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-timedoctor",
+			"code": "timedoctor"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-trustpilot",
+			"code": "trustpilot"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-twitter",
+			"code": "twitter"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-typeform",
+			"code": "typeform"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-vision-critical",
+			"code": "vision-critical"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-app-what3words",
+			"code": "app-what3words"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-woocommerce",
+			"code": "woocommerce"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-youtube",
+			"code": "youtube"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-yourpass",
+			"code": "yourpass"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-youtube-reporting",
+			"code": "youtube-reporting"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-zbozi-v2",
+			"code": "zbozi-v2"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-zendesk",
+			"code": "zendesk"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-zuora-aqua",
+			"code": "zuora-aqua"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-babelforce",
+			"code": "babelforce"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-itunes",
+			"code": "itunes"
+		},
+		{
+			"url": "https://www.keboola.com/components/export-data-from-itunes-reviews",
+			"code": "itunes-reviews"
+		}
+	]
+}

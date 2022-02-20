@@ -1,0 +1,621 @@
+{
+	"name": "Stitchdata",
+	"type": "data loading",
+	"url": "https://stitchdata.com",
+	"status": "incomplete destinations",
+	"destinations": [
+		{
+			"code": "bigquery"
+		}
+	],
+	"sources": [
+		{
+			"url": "https://www.stitchdata.com/integrations/aftership/",
+			"code": "aftership"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.aftership/",
+			"code": "webhook.aftership"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amazon-aurora/",
+			"code": "amazon-aurora-mysql"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amazon-aurora-postgresql/",
+			"code": "amazon-aurora-postgresql"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amazon-rds-mariadb/",
+			"code": "amazon-rds-mariadb"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amazon-rds-mysql/",
+			"code": "amazon-rds-mysql"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amazon-rds-oracle/",
+			"code": "amazon-rds-oracle"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amazon-rds-postgresql/",
+			"code": "amazon-rds-postgresql"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amazon-rds-sqlserver/",
+			"code": "amazon-rds-sqlserver"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/s3-csv/",
+			"code": "s3-csv"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/amplitude/",
+			"code": "amplitude"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/appsflyer/",
+			"code": "appsflyer"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/asana/",
+			"code": "asana"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/autopilot/",
+			"code": "autopilot"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/autopilot-activities/",
+			"code": "autopilot-activities"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/bigcommerce/",
+			"code": "bigcommerce"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/braintree/",
+			"code": "braintree"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/branch/",
+			"code": "branch"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.branch/",
+			"code": "webhook.branch"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/doubleclick-campaign-manager/",
+			"code": "doubleclick-campaign-manager"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/campaign-monitor/",
+			"code": "campaign-monitor"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/chargebee/",
+			"code": "chargebee"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/close-io/",
+			"code": "close-io"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/clubspeed/",
+			"code": "clubspeed"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/codat/",
+			"code": "codat"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/contentful/",
+			"code": "contentful"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.contentful/",
+			"code": "webhook.contentful"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/customer-io/",
+			"code": "customer-io"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.customer-io/",
+			"code": "webhook.customer-io"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/delighted/",
+			"code": "delighted"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.delighted/",
+			"code": "webhook.delighted"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/deputy/",
+			"code": "deputy"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/desk-com/",
+			"code": "desk-com"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/drip/",
+			"code": "drip"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.drip/",
+			"code": "webhook.drip"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/dynamodb/",
+			"code": "amazon-dynamodb"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/eloqua/",
+			"code": "eloqua"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/facebook-ads/",
+			"code": "facebook-ads"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.formkeep/",
+			"code": "webhook.formkeep"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/formkeep/",
+			"code": "formkeep"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/freshdesk/",
+			"code": "freshdesk"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/frontapp/",
+			"code": "front"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/fullstory/",
+			"code": "fullstory"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/github/",
+			"code": "github"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/gitlab/",
+			"code": "gitlab"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/adwords/",
+			"code": "google-ads"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-analytics/",
+			"code": "google-analytics"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-analytics-360/",
+			"code": "google-analytics-360"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-cloud-sql/",
+			"code": "google-cloud-sql"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-cloud-sql-archive/",
+			"code": "google-cloud-sql-archive"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-cloud-sql-postgresql/",
+			"code": "google-cloud-sql-postgresql"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-ecommerce/",
+			"code": "google-ecommerce"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-search-console/",
+			"code": "google-search-console"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/google-sheets/",
+			"code": "google-sheets"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/harvest/",
+			"code": "harvest"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/harvest-forecast/",
+			"code": "harvest-forecast"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/heap/",
+			"code": "heap"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/helpscout/",
+			"code": "helpscout"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/heroku/",
+			"code": "heroku"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/hubspot/",
+			"code": "hubspot"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/db2/",
+			"code": "db2"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/impact/",
+			"code": "impact"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/import-api/",
+			"code": "import-api"
+		},
+		{
+			"url": "https://www.stitchdata.com/intacct/",
+			"code": "intacct"
+		},
+		{
+			"url": "https://www.stitchdata.com/intercom-tap/",
+			"code": "intercom"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/invoiced/",
+			"code": "invoiced"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.iterable/",
+			"code": "webhook.iterable"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/iterable/",
+			"code": "iterable"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/jira/",
+			"code": "jira"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/klaviyo/",
+			"code": "klaviyo"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/lever/",
+			"code": "lever"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/linkedin-ads/",
+			"code": "linkedin-ads"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/listrak/",
+			"code": "listrak"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/liveperson/",
+			"code": "liveperson"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/lookml/",
+			"code": "looker"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/magento/",
+			"code": "magento"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/mailchimp/",
+			"code": "mailchimp"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/mailjet/",
+			"code": "mailjet"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.mailjet/",
+			"code": "webhook.mailjet"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/mailshake/",
+			"code": "mailshake"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/mambu/",
+			"code": "mambu"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/mariadb/",
+			"code": "mariadb"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/marketo-bulk/",
+			"code": "marketo-bulk"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/bing-ads/",
+			"code": "bing-ads"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/microsoft-azure/",
+			"code": "azure-sql-database"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/sql-server/",
+			"code": "sql-server"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/ms-teams/",
+			"code": "ms-teams"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/platform.mixpanel/",
+			"code": "mixpanel"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/mongodb/",
+			"code": "mongodb"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/mysql/",
+			"code": "mysql"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/netsuite/",
+			"code": "netsuite"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/netsuite-suite-analytics/",
+			"code": "netsuite-suite-analytics"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/onfleet/",
+			"code": "onfleet"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/oracle/",
+			"code": "oracle"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/bronto/",
+			"code": "bronto"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/outbrain/",
+			"code": "outbrain"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/outreach/",
+			"code": "outreach"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/pardot/",
+			"code": "pardot"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.particle/",
+			"code": "webhook.particle"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/particle/",
+			"code": "particle"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/pendo/",
+			"code": "pendo"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/pepperjam/",
+			"code": "pepperjam"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/pinterest-ads/",
+			"code": "pinterest-ads"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/pipedrive/",
+			"code": "pipedrive"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/platform-purple/",
+			"code": "platform-purple"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/hp-postgres/",
+			"code": "hp-postgres"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/quick-base/",
+			"code": "quick-base"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/quickbooks/",
+			"code": "quickbooks"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/recharge/",
+			"code": "recharge"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/recurly/",
+			"code": "recurly"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/referral-saasquatch/",
+			"code": "referral-saasquatch"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/responsys/",
+			"code": "responsys"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/revinate/",
+			"code": "revinate"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/ringcentral/",
+			"code": "ringcentral"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/sftp/",
+			"code": "sftp"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/salesforce/",
+			"code": "salesforce"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/salesforce-marketing-cloud/",
+			"code": "salesforce-marketing-cloud"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.segment/",
+			"code": "webhook.segment"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/segment/",
+			"code": "segment"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/selligent/",
+			"code": "selligent"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/sendgrid/",
+			"code": "sendgrid"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.sendgrid/",
+			"code": "webhook.sendgrid"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/sendgrid-core/",
+			"code": "sendgrid-core"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.sendwithus/",
+			"code": "webhook.sendwithus"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/sendwithus/",
+			"code": "sendwithus"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/shiphero/",
+			"code": "shiphero"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/shippo/",
+			"code": "shippo"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/shopify/",
+			"code": "shopify"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/sparkpost/",
+			"code": "sparkpost"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.sparkpost/",
+			"code": "webhook.sparkpost"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/square/",
+			"code": "square"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/stripe/",
+			"code": "stripe"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/surveymonkey/",
+			"code": "survey-monkey"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/taboola/",
+			"code": "taboola"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/platform.toggl/",
+			"code": "platform.toggl"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/typeform/",
+			"code": "typeform"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/urban-airship/",
+			"code": "urban-airship"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/uservoice/",
+			"code": "uservoice"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/vero/",
+			"code": "vero"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.vero/",
+			"code": "webhook.vero"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.webhooks/",
+			"code": "webhook.webhooks"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhooks/",
+			"code": "webhooks"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/workday-raas/",
+			"code": "workday-raas"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/xero/",
+			"code": "xero"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/yotpo/",
+			"code": "yotpo"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/zapier/",
+			"code": "zapier"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/webhook.zapier/",
+			"code": "webhook.zapier"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/zendesk-chat/",
+			"code": "zendesk-chat"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/zendesk/",
+			"code": "zendesk"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/zoom/",
+			"code": "zoom"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/zuora/",
+			"code": "zuora"
+		},
+		{
+			"url": "https://www.stitchdata.com/integrations/request",
+			"code": "request"
+		}
+	]
+}

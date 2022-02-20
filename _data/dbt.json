@@ -1,0 +1,87 @@
+{
+	"name": "dbt",
+	"type": "transformation",
+	"url": "https://www.getdbt.com/",
+	"sources": [
+		{
+			"code": "postgresql",
+			"status": "supported"
+		},
+		{
+			"code": "redshift",
+			"status": "supported"
+		},
+		{
+			"code": "bigquery",
+			"status": "supported"
+		},
+		{
+			"code": "snowflake",
+			"status": "supported"
+		},
+		{
+			"code": "apache-spark",
+			"status": "supported"
+		},
+		{
+			"code": "databricks",
+			"status": "supported"
+		},
+		{
+			"code": "presto",
+			"status": "partially supported"
+		},
+		{
+			"code": "materialize",
+			"status": "vendor supported"
+		},
+		{
+			"code": "rocket",
+			"status": "vendor supported"
+		},
+		{
+			"code": "trino",
+			"status": "vendor supported"
+		},
+		{
+			"code": "firebolt",
+			"status": "vendor supported"
+		},
+		{
+			"code": "teradata",
+			"status": "vendor supported"
+		},
+		{
+			"code": "singlestore",
+			"status": "vendor supported"
+		},
+		{
+			"code": "sql-server",
+			"status": "community supported"
+		},
+		{
+			"code": "azure-synapse",
+			"status": "community supported"
+		},
+		{
+			"code": "exasol",
+			"status": "community supported"
+		},
+		{
+			"code": "oracle",
+			"status": "community supported"
+		},
+		{
+			"code": "dremio",
+			"status": "community supported"
+		},
+		{
+			"code": "clickhouse",
+			"status": "community supported"
+		},
+		{
+			"code": "amazon-athena",
+			"status": "community supported"
+		}
+	]
+}

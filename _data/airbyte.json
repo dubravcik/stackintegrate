@@ -1,0 +1,381 @@
+{
+	"name": "Airbyte",
+	"type": "data loading",
+	"url": "https://airbyte.com",
+	"status": "incomplete destinations",
+	"destinations": [
+		{
+			"code": "bigquery"
+		}
+	],
+	"sources": [
+		{
+			"url": "https://airbyte.com/connectors/facebook-marketing",
+			"code": "facebook-marketing"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-ads",
+			"code": "google-ads"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-analytics",
+			"code": "google-analytics"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-sheets",
+			"code": "google-sheets"
+		},
+		{
+			"url": "https://airbyte.com/connectors/hubspot",
+			"code": "hubspot"
+		},
+		{
+			"url": "https://airbyte.com/connectors/mssql",
+			"code": "sql-server"
+		},
+		{
+			"url": "https://airbyte.com/connectors/mysql-source",
+			"code": "mysql"
+		},
+		{
+			"url": "https://airbyte.com/connectors/postgresql-source",
+			"code": "postgresql"
+		},
+		{
+			"url": "https://airbyte.com/connectors/redshift-source",
+			"code": "redshift"
+		},
+		{
+			"url": "https://airbyte.com/connectors/s3",
+			"code": "s3"
+		},
+		{
+			"url": "https://airbyte.com/connectors/salesforce",
+			"code": "salesforce"
+		},
+		{
+			"url": "https://airbyte.com/connectors/snowflake-sources",
+			"code": "snowflake"
+		},
+		{
+			"url": "https://airbyte.com/connectors/aws-cloudtrail",
+			"code": "aws-cloudtrail"
+		},
+		{
+			"url": "https://airbyte.com/connectors/amazon-ads",
+			"code": "amazon-ads"
+		},
+		{
+			"url": "https://airbyte.com/connectors/amazon-seller-partner",
+			"code": "amazon-seller-partner"
+		},
+		{
+			"url": "https://airbyte.com/connectors/amplitude",
+			"code": "amplitude"
+		},
+		{
+			"url": "https://airbyte.com/connectors/apify",
+			"code": "apify"
+		},
+		{
+			"url": "https://airbyte.com/connectors/app-store",
+			"code": "app-store"
+		},
+		{
+			"url": "https://airbyte.com/connectors/asana",
+			"code": "asana"
+		},
+		{
+			"url": "https://airbyte.com/connectors/azure-blob-storage",
+			"code": "azure-blob-storage"
+		},
+		{
+			"url": "https://airbyte.com/connectors/bamboo-hr",
+			"code": "bamboo-hr"
+		},
+		{
+			"url": "https://airbyte.com/connectors/bigcommerce",
+			"code": "bigcommerce"
+		},
+		{
+			"url": "https://airbyte.com/connectors/bigquery-source",
+			"code": "bigquery"
+		},
+		{
+			"url": "https://airbyte.com/connectors/bing-ads",
+			"code": "bing-ads"
+		},
+		{
+			"url": "https://airbyte.com/connectors/braintree",
+			"code": "braintree"
+		},
+		{
+			"url": "https://airbyte.com/connectors/local-csv",
+			"code": "local-csv"
+		},
+		{
+			"url": "https://airbyte.com/connectors/csv-file",
+			"code": "csv-file"
+		},
+		{
+			"url": "https://airbyte.com/connectors/cart",
+			"code": "cart"
+		},
+		{
+			"url": "https://airbyte.com/connectors/chargebee",
+			"code": "chargebee"
+		},
+		{
+			"url": "https://airbyte.com/connectors/chargify",
+			"code": "chargify"
+		},
+		{
+			"url": "https://airbyte.com/connectors/clickhouse",
+			"code": "clickhouse"
+		},
+		{
+			"url": "https://airbyte.com/connectors/cockroachdb",
+			"code": "cockroachdb"
+		},
+		{
+			"url": "https://airbyte.com/connectors/dixa",
+			"code": "dixa"
+		},
+		{
+			"url": "https://airbyte.com/connectors/drift",
+			"code": "drift"
+		},
+		{
+			"url": "https://airbyte.com/connectors/drupal",
+			"code": "drupal"
+		},
+		{
+			"url": "https://airbyte.com/connectors/dynamodb",
+			"code": "amazon-dynamodb"
+		},
+		{
+			"url": "https://airbyte.com/connectors/excel-file-source",
+			"code": "excel-file-source"
+		},
+		{
+			"url": "https://airbyte.com/connectors/exchange-rates-api",
+			"code": "exchange-rates-api"
+		},
+		{
+			"url": "https://airbyte.com/connectors/facebook-pages",
+			"code": "facebook-pages"
+		},
+		{
+			"url": "https://airbyte.com/connectors/feather-file-source",
+			"code": "feather-file-source"
+		},
+		{
+			"url": "https://airbyte.com/connectors/freshdesk",
+			"code": "freshdesk"
+		},
+		{
+			"url": "https://airbyte.com/connectors/github",
+			"code": "github"
+		},
+		{
+			"url": "https://airbyte.com/connectors/gitlab",
+			"code": "gitlab"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-cloud-storage-gcs",
+			"code": "google-cloud-storage-gcs"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-directory",
+			"code": "google-directory"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-pubsub",
+			"code": "google-pubsub"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-search-console",
+			"code": "google-search-console"
+		},
+		{
+			"url": "https://airbyte.com/connectors/google-workspace-admin",
+			"code": "google-workspace-admin"
+		},
+		{
+			"url": "https://airbyte.com/connectors/greenhouse",
+			"code": "greenhouse"
+		},
+		{
+			"url": "https://airbyte.com/connectors/harvest",
+			"code": "harvest"
+		},
+		{
+			"url": "https://airbyte.com/connectors/ibm-db2",
+			"code": "db2"
+		},
+		{
+			"url": "https://airbyte.com/connectors/instagram",
+			"code": "instagram"
+		},
+		{
+			"url": "https://airbyte.com/connectors/intercom",
+			"code": "intercom"
+		},
+		{
+			"url": "https://airbyte.com/connectors/iterable",
+			"code": "iterable"
+		},
+		{
+			"url": "https://airbyte.com/connectors/json-source",
+			"code": "json-source"
+		},
+		{
+			"url": "https://airbyte.com/connectors/local-json",
+			"code": "local-json"
+		},
+		{
+			"url": "https://airbyte.com/connectors/jira-cloud",
+			"code": "jira"
+		},
+		{
+			"url": "https://airbyte.com/connectors/kafka",
+			"code": "kafka"
+		},
+		{
+			"url": "https://airbyte.com/connectors/keen",
+			"code": "keen"
+		},
+		{
+			"url": "https://airbyte.com/connectors/klaviyo",
+			"code": "klaviyo"
+		},
+		{
+			"url": "https://airbyte.com/connectors/kustomer",
+			"code": "kustomer"
+		},
+		{
+			"url": "https://airbyte.com/connectors/looker",
+			"code": "looker"
+		},
+		{
+			"url": "https://airbyte.com/connectors/magento",
+			"code": "magento"
+		},
+		{
+			"url": "https://airbyte.com/connectors/mailchimp",
+			"code": "mailchimp"
+		},
+		{
+			"url": "https://airbyte.com/connectors/marketo",
+			"code": "marketo"
+		},
+		{
+			"url": "https://airbyte.com/connectors/meilisearch",
+			"code": "meilisearch"
+		},
+		{
+			"url": "https://airbyte.com/connectors/microsoft-dynamics-ax",
+			"code": "microsoft-dynamics-ax"
+		},
+		{
+			"url": "https://airbyte.com/connectors/microsoft-dynamics-customer-engagement",
+			"code": "microsoft-dynamics-customer-engagement"
+		},
+		{
+			"url": "https://airbyte.com/connectors/microsoft-dynamics-gp",
+			"code": "microsoft-dynamics-gp"
+		},
+		{
+			"url": "https://airbyte.com/connectors/microsoft-dynamics-nav",
+			"code": "microsoft-dynamics-nav"
+		},
+		{
+			"url": "https://airbyte.com/connectors/microsoft-teams",
+			"code": "microsoft-teams"
+		},
+		{
+			"url": "https://airbyte.com/connectors/mixpanel",
+			"code": "mixpanel"
+		},
+		{
+			"url": "https://airbyte.com/connectors/mongodb",
+			"code": "mongodb"
+		},
+		{
+			"url": "https://airbyte.com/connectors/okta",
+			"code": "okta"
+		},
+		{
+			"url": "https://airbyte.com/connectors/oracle-db-source",
+			"code": "oracle"
+		},
+		{
+			"url": "https://airbyte.com/connectors/oracle-peoplesoft",
+			"code": "oracle-peoplesoft"
+		},
+		{
+			"url": "https://airbyte.com/connectors/oracle-siebel-crm",
+			"code": "oracle-siebel-crm"
+		},
+		{
+			"url": "https://airbyte.com/connectors/parquet-file-source",
+			"code": "parquet-file-source"
+		},
+		{
+			"url": "https://airbyte.com/connectors/paypal-transaction",
+			"code": "paypal-transaction"
+		},
+		{
+			"url": "https://airbyte.com/connectors/pipedrive",
+			"code": "pipedrive"
+		},
+		{
+			"url": "https://airbyte.com/connectors/plaid",
+			"code": "plaid"
+		},
+		{
+			"url": "https://airbyte.com/connectors/pokeapi",
+			"code": "pokeapi"
+		},
+		{
+			"url": "https://airbyte.com/connectors/posthog",
+			"code": "posthog"
+		},
+		{
+			"url": "https://airbyte.com/connectors/prestashop",
+			"code": "prestashop"
+		},
+		{
+			"url": "https://airbyte.com/connectors/quickbooks",
+			"code": "quickbooks"
+		},
+		{
+			"url": "https://airbyte.com/connectors/recharge",
+			"code": "recharge"
+		},
+		{
+			"url": "https://airbyte.com/connectors/recurly",
+			"code": "recurly"
+		},
+		{
+			"url": "https://airbyte.com/connectors/rest-api",
+			"code": "rest-api"
+		},
+		{
+			"url": "https://airbyte.com/connectors/s3-source",
+			"code": "amazon-s3"
+		},
+		{
+			"url": "https://airbyte.com/connectors/sap-business-one",
+			"code": "sap-business-one"
+		},
+		{
+			"url": "https://airbyte.com/connectors/sendgrid",
+			"code": "sendgrid"
+		},
+		{
+			"url": "https://airbyte.com/connectors/shopify",
+			"code": "shopify"
+		}
+	]
+}

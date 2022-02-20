@@ -1,0 +1,27 @@
+{
+	"name": "Crossbeam",
+	"type": "",
+	"url": "https://crossbeam.com",
+	"destinations": [
+		{
+			"code": "salesforce"
+		}
+	],
+	"sources": [
+		{
+			"code": "salesforce"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "csv"
+		},
+		{
+			"code": "hubspot"
+		},
+		{
+			"code": "google-sheets"
+		}
+	]
+}

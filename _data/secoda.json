@@ -1,0 +1,98 @@
+{
+	"name": "Secoda",
+	"type": "data catalog",
+	"url": "https://secoda.co",
+	"status":"",
+	"sources": [
+		{
+			"code": "hightouch"
+		},
+		{
+			"code": "power-bi"
+		},
+		{
+			"code": "metabase"
+		},
+		{
+			"code": "looker"
+		},
+		{
+			"code": "amazon-s3"
+		},
+		{
+			"code": "airflow"
+		},
+		{
+			"code": "dbt"
+		},
+		{
+			"code": "slack"
+		},
+		{
+			"code": "sql-server"
+		},
+		{
+			"code": "redash"
+		},
+		{
+			"code": "redshift"
+		},
+		{
+			"code": "mysql"
+		},
+		{
+			"code": "postgresql"
+		},
+		{
+			"code": "mode"
+		},
+		{
+			"code": "bigquery"
+		},
+		{
+			"code": "hive"
+		},
+		{
+			"code": "tableau"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "nifi"
+		},
+		{
+			"code": "okta"
+		},
+		{
+			"code": "openapi"
+		},
+		{
+			"code": "oracle"
+		},
+		{
+			"code": "postgresql"
+		},
+		{
+			"code": "redash"
+		},
+		{
+			"code": "redshift"
+		},
+		{
+			"code": "amazon-s3"
+		},
+		{
+			"code": "saga-maker"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "superset"
+		},
+		{
+			"code": "trino"
+		}
+	]
+}

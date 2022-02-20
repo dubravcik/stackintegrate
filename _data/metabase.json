@@ -1,0 +1,62 @@
+{
+	"name": "Metabase",
+	"type": "reporting",
+	"url": "https://metabase.com",
+	"status":"complete on 2020-02-06",
+	"sources": [
+		{
+			"code": "mysql"
+		},
+		{
+			"code": "postgresql"
+		},
+		{
+			"code": "mongodb"
+		},
+		{
+			"code": "sql-server"
+		},
+		{
+			"code": "redshift"
+		},
+		{
+			"code": "druid"
+		},
+		{
+			"code": "sqlite"
+		},
+		{
+			"code": "oracle"
+		},
+		{
+			"code": "google-analytics"
+		},
+		{
+			"code": "vertica"
+		},
+		{
+			"code": "spark"
+		},
+		{
+			"code": "presto"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "bigquery"
+		},
+		{
+			"code": "amazon-athena"
+		},
+		{
+			"code": "cube-js"
+		},
+		{
+			"code": "teradata"
+		},
+		{
+			"code": "clickhouse"
+		}
+	]
+}

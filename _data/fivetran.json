@@ -1,0 +1,705 @@
+{
+	"name": "Fivetran",
+	"type": "data loading",
+	"url": "https://fivetran.com",
+	"status":"incomplete destinations",
+	"destinations": [
+		{
+			"code": "bigquery"
+		}
+	],
+	"sources": [
+		{
+			"code": "zoho-crm",
+			"url": "https://fivetran.com/docs/applications/zoho-crm"
+		},
+		{
+			"code": "oracle-cx-sales",
+			"url": "https://fivetran.com/docs/applications/oracle-cx-sales"
+		},
+		{
+			"code": "linkedin-company-pages",
+			"url": "https://fivetran.com/docs/applications/linkedin-company-pages"
+		},
+		{
+			"code": "adp-workforce-now",
+			"url": "https://fivetran.com/docs/applications/adp-workforce-now"
+		},
+		{
+			"code": "zendesk-sell",
+			"url": "https://fivetran.com/docs/applications/zendesk-sell"
+		},
+		{
+			"code": "typeform",
+			"url": "https://fivetran.com/docs/applications/typeform"
+		},
+		{
+			"code": "workday-hcm",
+			"url": "https://fivetran.com/docs/applications/workday-hcm"
+		},
+		{
+			"code": "branch",
+			"url": "https://fivetran.com/docs/applications/branch"
+		},
+		{
+			"code": "powerschool",
+			"url": "https://fivetran.com/docs/applications/powerschool"
+		},
+		{
+			"code": "ellucian-banner",
+			"url": "https://fivetran.com/docs/applications/ellucian-banner"
+		},
+		{
+			"code": "blackboard",
+			"url": "https://fivetran.com/docs/applications/blackboard"
+		},
+		{
+			"code": "oracle-siebel-crm",
+			"url": "https://fivetran.com/docs/applications/oracle-siebel-crm"
+		},
+		{
+			"code": "oracle-peoplesoft",
+			"url": "https://fivetran.com/docs/applications/oracle-peoplesoft"
+		},
+		{
+			"code": "canvas",
+			"url": "https://fivetran.com/docs/applications/canvas"
+		},
+		{
+			"code": "epicor-prophet-21",
+			"url": "https://fivetran.com/docs/applications/epicor-prophet-21"
+		},
+		{
+			"code": "instagram-ads",
+			"url": "https://fivetran.com/docs/applications/instagram-ads"
+		},
+		{
+			"code": "instagram-business",
+			"url": "https://fivetran.com/docs/applications/instagram-business"
+		},
+		{
+			"code": "twitter",
+			"url": "https://fivetran.com/docs/applications/twitter-analytics"
+		},
+		{
+			"code": "sugarcrm",
+			"url": "https://fivetran.com/docs/applications/sugarcrm"
+		},
+		{
+			"code": "delighted",
+			"url": "https://fivetran.com/docs/applications/delighted"
+		},
+		{
+			"code": "zendesk-sunshine",
+			"url": "https://fivetran.com/docs/applications/zendesk-sunshine"
+		},
+		{
+			"code": "tiktok-ads",
+			"url": "https://fivetran.com/docs/applications/tiktok-ads"
+		},
+		{
+			"code": "height",
+			"url": "https://fivetran.com/docs/applications/height"
+		},
+		{
+			"code": "azure-sql-database",
+			"url": "https://fivetran.com/docs/applications/microsoft-azure-sql-database"
+		},
+		{
+			"code": "jira",
+			"url": "https://fivetran.com/docs/applications/atlassian-jira"
+		},
+		{
+			"code": "ftps",
+			"url": "https://fivetran.com/docs/applications/ftps"
+		},
+		{
+			"code": "intercom",
+			"url": "https://fivetran.com/docs/applications/intercom"
+		},
+		{
+			"code": "oracle-ebs",
+			"url": "https://fivetran.com/docs/applications/oracle-ebs"
+		},
+		{
+			"code": "outbrain",
+			"url": "https://fivetran.com/docs/applications/outbrain"
+		},
+		{
+			"code": "sap-erp",
+			"url": "https://fivetran.com/docs/applications/sap-erp"
+		},
+		{
+			"code": "oracle-rac",
+			"url": "https://fivetran.com/docs/applications/oracle-rac"
+		},
+		{
+			"code": "amplitude",
+			"url": "https://fivetran.com/docs/applications/amplitude"
+		},
+		{
+			"code": "google-cloud-functions",
+			"url": "https://fivetran.com/docs/applications/google-cloud-functions"
+		},
+		{
+			"code": "twilio",
+			"url": "https://fivetran.com/docs/applications/twilio"
+		},
+		{
+			"code": "mavenlink",
+			"url": "https://fivetran.com/docs/applications/mavenlink"
+		},
+		{
+			"code": "apple-search-ads",
+			"url": "https://fivetran.com/docs/applications/apple-search-ads"
+		},
+		{
+			"code": "amazon-rds-mysql",
+			"url": "https://fivetran.com/docs/applications/aws-rds-mysql"
+		},
+		{
+			"code": "sailthru",
+			"url": "https://fivetran.com/docs/applications/sailthru"
+		},
+		{
+			"code": "braintree",
+			"url": "https://fivetran.com/docs/applications/braintree-payments"
+		},
+		{
+			"code": "recharge",
+			"url": "https://fivetran.com/docs/applications/recharge"
+		},
+		{
+			"code": "twitter-ads",
+			"url": "https://fivetran.com/docs/applications/twitter-ads"
+		},
+		{
+			"code": "splunk",
+			"url": "https://fivetran.com/docs/applications/splunk"
+		},
+		{
+			"code": "google-cloud-mysql-database",
+			"url": "https://fivetran.com/docs/applications/google-cloud-mysql-database"
+		},
+		{
+			"code": "google-cloud-postgresql",
+			"url": "https://fivetran.com/docs/applications/google-cloud-postgres"
+		},
+		{
+			"code": "linkedin-ads",
+			"url": "https://fivetran.com/docs/applications/linkedin-ads"
+		},
+		{
+			"code": "mongo-sharded",
+			"url": "https://fivetran.com/docs/applications/mongo-sharded"
+		},
+		{
+			"code": "mariadb",
+			"url": "https://fivetran.com/docs/applications/mariadb"
+		},
+		{
+			"code": "google-play",
+			"url": "https://fivetran.com/docs/applications/google-play"
+		},
+		{
+			"code": "pinterest-ads",
+			"url": "https://fivetran.com/docs/applications/pinterest-ads"
+		},
+		{
+			"code": "mixpanel",
+			"url": "https://fivetran.com/docs/applications/mixpanel"
+		},
+		{
+			"code": "google-drive",
+			"url": "https://fivetran.com/docs/applications/google-drive"
+		},
+		{
+			"code": "apple-app-store",
+			"url": "https://fivetran.com/docs/applications/apple-app-store"
+		},
+		{
+			"code": "zuora",
+			"url": "https://fivetran.com/docs/applications/zuora"
+		},
+		{
+			"code": "kustomer",
+			"url": "https://fivetran.com/docs/applications/kustomer"
+		},
+		{
+			"code": "appsflyer",
+			"url": "https://fivetran.com/docs/applications/appsflyer"
+		},
+		{
+			"code": "marketo",
+			"url": "https://fivetran.com/docs/applications/marketo"
+		},
+		{
+			"code": "iterable",
+			"url": "https://fivetran.com/docs/applications/iterable"
+		},
+		{
+			"code": "greenhouse",
+			"url": "https://fivetran.com/docs/applications/greenhouse"
+		},
+		{
+			"code": "google-search-console",
+			"url": "https://fivetran.com/docs/applications/google-search-console"
+		},
+		{
+			"code": "azure-mysql",
+			"url": "https://fivetran.com/docs/applications/microsoft-azure-mysql"
+		},
+		{
+			"code": "amazon-rds-sql-server",
+			"url": "https://fivetran.com/docs/applications/aws-rds-sql-server"
+		},
+		{
+			"code": "segment",
+			"url": "https://fivetran.com/docs/applications/segment"
+		},
+		{
+			"code": "mailchimp",
+			"url": "https://fivetran.com/docs/applications/mailchimp"
+		},
+		{
+			"code": "amazon-cloudtrail",
+			"url": "https://fivetran.com/docs/applications/aws-cloudtrail"
+		},
+		{
+			"code": "sftp",
+			"url": "https://fivetran.com/docs/applications/sftp"
+		},
+		{
+			"code": "campaign-manager",
+			"url": "https://fivetran.com/docs/applications/campaign-manager"
+		},
+		{
+			"code": "mariadb-azure",
+			"url": "https://fivetran.com/docs/applications/mariadb-azure"
+		},
+		{
+			"code": "qualtrics",
+			"url": "https://fivetran.com/docs/applications/qualtrics"
+		},
+		{
+			"code": "azure-blob-storage",
+			"url": "https://fivetran.com/docs/applications/microsoft-azure-blob-storage"
+		},
+		{
+			"code": "coupa",
+			"url": "https://fivetran.com/docs/applications/coupa"
+		},
+		{
+			"code": "taboola",
+			"url": "https://fivetran.com/docs/applications/taboola"
+		},
+		{
+			"code": "webhooks",
+			"url": "https://fivetran.com/docs/applications/webhooks"
+		},
+		{
+			"code": "lightspeed",
+			"url": "https://fivetran.com/docs/applications/lightspeed"
+		},
+		{
+			"code": "lever",
+			"url": "https://fivetran.com/docs/applications/lever"
+		},
+		{
+			"code": "survey-monkey",
+			"url": "https://fivetran.com/docs/applications/surveymonkey"
+		},
+		{
+			"code": "shopify",
+			"url": "https://fivetran.com/docs/applications/shopify"
+		},
+		{
+			"code": "front",
+			"url": "https://fivetran.com/docs/applications/front"
+		},
+		{
+			"code": "asana",
+			"url": "https://fivetran.com/docs/applications/asana"
+		},
+		{
+			"code": "sap-concur",
+			"url": "https://fivetran.com/docs/applications/sap-concur"
+		},
+		{
+			"code": "apache-kafka",
+			"url": "https://fivetran.com/docs/applications/apache-kafka"
+		},
+		{
+			"code": "optimizely",
+			"url": "https://fivetran.com/docs/applications/optimizely"
+		},
+		{
+			"code": "snowplow-analytics",
+			"url": "https://fivetran.com/docs/applications/snowplow-analytics"
+		},
+		{
+			"code": "amazon-rds-postgresql",
+			"url": "https://fivetran.com/docs/applications/aws-rds-postgres"
+		},
+		{
+			"code": "salesforce-pardot",
+			"url": "https://fivetran.com/docs/applications/salesforce-pardot"
+		},
+		{
+			"code": "help-scout",
+			"url": "https://fivetran.com/docs/applications/help-scout"
+		},
+		{
+			"code": "github",
+			"url": "https://fivetran.com/docs/applications/github"
+		},
+		{
+			"code": "quickbooks-online",
+			"url": "https://fivetran.com/docs/applications/quickbooks-online"
+		},
+		{
+			"code": "criteo",
+			"url": "https://fivetran.com/docs/applications/criteo"
+		},
+		{
+			"code": "adobe-analytics",
+			"url": "https://fivetran.com/docs/applications/adobe-analytics"
+		},
+		{
+			"code": "facebook-pages",
+			"url": "https://fivetran.com/docs/applications/facebook-pages"
+		},
+		{
+			"code": "youtube",
+			"url": "https://fivetran.com/docs/applications/youtube"
+		},
+		{
+			"code": "marin-software",
+			"url": "https://fivetran.com/docs/applications/marin-software"
+		},
+		{
+			"code": "pendo",
+			"url": "https://fivetran.com/docs/applications/pendo"
+		},
+		{
+			"code": "sage-intacct",
+			"url": "https://fivetran.com/docs/applications/sage-intacct"
+		},
+		{
+			"code": "snapchat-ads",
+			"url": "https://fivetran.com/docs/applications/snapchat-ads"
+		},
+		{
+			"code": "recurly",
+			"url": "https://fivetran.com/docs/applications/recurly"
+		},
+		{
+			"code": "braze",
+			"url": "https://fivetran.com/docs/applications/braze"
+		},
+		{
+			"code": "azure-postgresql",
+			"url": "https://fivetran.com/docs/applications/microsoft-azure-postgres"
+		},
+		{
+			"code": "freshdesk",
+			"url": "https://fivetran.com/docs/applications/freshdesk"
+		},
+		{
+			"code": "square",
+			"url": "https://fivetran.com/docs/applications/square"
+		},
+		{
+			"code": "csv-uploader",
+			"url": "https://fivetran.com/docs/applications/csv-uploader"
+		},
+		{
+			"code": "email-ingestor",
+			"url": "https://fivetran.com/docs/applications/email-ingestor"
+		},
+		{
+			"code": "heroku-postgresql",
+			"url": "https://fivetran.com/docs/applications/heroku-postgres"
+		},
+		{
+			"code": "sendgrid",
+			"url": "https://fivetran.com/docs/applications/sendgrid"
+		},
+		{
+			"code": "microsoft-dynamics-365",
+			"url": "https://fivetran.com/docs/applications/microsoft-dynamics-365"
+		},
+		{
+			"code": "ftp",
+			"url": "https://fivetran.com/docs/applications/ftp"
+		},
+		{
+			"code": "bing-ads",
+			"url": "https://fivetran.com/docs/applications/bing-ads"
+		},
+		{
+			"code": "workday",
+			"url": "https://fivetran.com/docs/applications/workday"
+		},
+		{
+			"code": "mandrill",
+			"url": "https://fivetran.com/docs/applications/mandrill"
+		},
+		{
+			"code": "servicenow",
+			"url": "https://fivetran.com/docs/applications/servicenow"
+		},
+		{
+			"code": "google-cloud-storage",
+			"url": "https://fivetran.com/docs/applications/google-cloud-storage"
+		},
+		{
+			"code": "anaplan",
+			"url": "https://fivetran.com/docs/applications/anaplan"
+		},
+		{
+			"code": "uservoice",
+			"url": "https://fivetran.com/docs/applications/uservoice"
+		},
+		{
+			"code": "adroll",
+			"url": "https://fivetran.com/docs/applications/adroll"
+		},
+		{
+			"code": "oracle-eloqua",
+			"url": "https://fivetran.com/docs/applications/oracle-eloqua"
+		},
+		{
+			"code": "klaviyo",
+			"url": "https://fivetran.com/docs/applications/klaviyo"
+		},
+		{
+			"code": "xero",
+			"url": "https://fivetran.com/docs/applications/xero"
+		},
+		{
+			"code": "airtable",
+			"url": "https://fivetran.com/docs/applications/airtable"
+		},
+		{
+			"code": "box",
+			"url": "https://fivetran.com/docs/applications/box"
+		},
+		{
+			"code": "azure-functions",
+			"url": "https://fivetran.com/docs/applications/microsoft-azure-functions"
+		},
+		{
+			"code": "dropbox",
+			"url": "https://fivetran.com/docs/applications/dropbox"
+		},
+		{
+			"code": "mongodb",
+			"url": "https://fivetran.com/docs/applications/mongodb"
+		},
+		{
+			"code": "stripe",
+			"url": "https://fivetran.com/docs/applications/stripe"
+		},
+		{
+			"code": "apache-kafka-heroku",
+			"url": "https://fivetran.com/docs/applications/apache-kafka-heroku"
+		},
+		{
+			"code": "google-analytics-360",
+			"url": "https://fivetran.com/docs/applications/google-analytics-360"
+		},
+		{
+			"code": "magento-mysql",
+			"url": "https://fivetran.com/docs/applications/magento-mysql"
+		},
+		{
+			"code": "pipedrive",
+			"url": "https://fivetran.com/docs/applications/pipedrive"
+		},
+		{
+			"code": "google-analytics",
+			"url": "https://fivetran.com/docs/applications/google-analytics"
+		},
+		{
+			"code": "facebook-ads-account",
+			"url": "https://fivetran.com/docs/applications/facebook-ads-account"
+		},
+		{
+			"code": "salesforce-marketing-cloud",
+			"url": "https://fivetran.com/docs/applications/salesforce-marketing-cloud"
+		},
+		{
+			"code": "facebook",
+			"url": "https://fivetran.com/docs/applications/facebook"
+		},
+		{
+			"code": "zendesk",
+			"url": "https://fivetran.com/docs/applications/zendesk"
+		},
+		{
+			"code": "yahoo-gemini",
+			"url": "https://fivetran.com/docs/applications/yahoo-gemini"
+		},
+		{
+			"code": "facebook-ads-insights",
+			"url": "https://fivetran.com/docs/applications/facebook-ads-insights"
+		},
+		{
+			"code": "woocommerce",
+			"url": "https://fivetran.com/docs/applications/woocommerce"
+		},
+		{
+			"code": "zendesk-chat",
+			"url": "https://fivetran.com/docs/applications/zendesk-chat"
+		},
+		{
+			"code": "prestashop",
+			"url": "https://fivetran.com/docs/applications/prestashop"
+		},
+		{
+			"code": "adobe",
+			"url": "https://fivetran.com/docs/applications/adobe"
+		},
+		{
+			"code": "heap",
+			"url": "https://fivetran.com/docs/applications/heap"
+		},
+		{
+			"code": "spree-commerce-via-mysql",
+			"url": "https://fivetran.com/docs/applications/spree-commerce-via-mysql"
+		},
+		{
+			"code": "microsoft-dynamics-ax",
+			"url": "https://fivetran.com/docs/applications/dynamics-ax"
+		},
+		{
+			"code": "oscommerce-mysql",
+			"url": "https://fivetran.com/docs/applications/oscommerce-mysql"
+		},
+		{
+			"code": "microsoft-dynamics-gp",
+			"url": "https://fivetran.com/docs/applications/microsoft-dynamics-gp"
+		},
+		{
+			"code": "loaded-commerce-via-mysql",
+			"url": "https://fivetran.com/docs/applications/loaded-commerce-via-mysql"
+		},
+		{
+			"code": "woocommerce-via-mysql",
+			"url": "https://fivetran.com/docs/applications/woocommerce-via-mysql"
+		},
+		{
+			"code": "prestashop-via-mysql",
+			"url": "https://fivetran.com/docs/applications/prestashop-via-mysql"
+		},
+		{
+			"code": "microsoft-dynamics-crm",
+			"url": "https://fivetran.com/docs/applications/microsoft-dynamics-crm"
+		},
+		{
+			"code": "google-ad-manager",
+			"url": "https://fivetran.com/docs/applications/google-ad-manager"
+		},
+		{
+			"code": "microsoft-dynamics-nav",
+			"url": "https://fivetran.com/docs/applications/microsoft-dynamics-nav"
+		},
+		{
+			"code": "amazon-config",
+			"url": "https://fivetran.com/docs/applications/aws-config"
+		},
+		{
+			"code": "amazon-asset-inventory",
+			"url": "https://fivetran.com/docs/applications/aws-asset-inventory"
+		},
+		{
+			"code": "google-sheets",
+			"url": "https://fivetran.com/docs/applications/google-sheets"
+		},
+		{
+			"code": "postgresql",
+			"url": "https://fivetran.com/docs/databases/postgresql-database"
+		},
+		{
+			"code": "mysql",
+			"url": "https://fivetran.com/docs/databases/mysql-database"
+		},
+		{
+			"code": "oracle",
+			"url": "https://fivetran.com/docs/databases/oracle"
+		},
+		{
+			"code": "sql-server",
+			"url": "https://fivetran.com/docs/databases/sql-server"
+		},
+		{
+			"code": "salesforce",
+			"url": "https://fivetran.com/docs/applications/salesforce"
+		},
+		{
+			"code": "google-ads",
+			"url": "https://fivetran.com/docs/applications/google-ads"
+		},
+		{
+			"code": "netsuite-suite-analytics",
+			"url": "https://fivetran.com/docs/applications/netsuite-suiteanalytics"
+		},
+		{
+			"code": "hubspot",
+			"url": "https://fivetran.com/docs/applications/hubspot"
+		},
+		{
+			"code": "google-display-and-video-360",
+			"url": "https://fivetran.com/docs/applications/google-display-and-video-360"
+		},
+		{
+			"code": "outreach",
+			"url": "https://fivetran.com/docs/applications/outreach"
+		},
+		{
+			"code": "amazon-cloudfront",
+			"url": "https://fivetran.com/docs/applications/amazon-cloudfront"
+		},
+		{
+			"code": "amazon-lambda",
+			"url": "https://fivetran.com/docs/applications/aws-lambda"
+		},
+		{
+			"code": "salesforce-commerce-cloud",
+			"url": "https://fivetran.com/docs/applications/salesforce-commerce-cloud"
+		},
+		{
+			"code": "amazon-dynamodb",
+			"url": "https://fivetran.com/docs/applications/amazon-dynamodb"
+		},
+		{
+			"code": "magento-mysql-amazon-rds",
+			"url": "https://fivetran.com/docs/applications/magento-mysql-amazon-rds"
+		},
+		{
+			"code": "amazon-kinesis",
+			"url": "https://fivetran.com/docs/applications/aws-kinesis"
+		},
+		{
+			"code": "amazon-s3",
+			"url": "https://fivetran.com/docs/applications/amazon-s3"
+		},
+		{
+			"code": "mariadb-amazon-rds",
+			"url": "https://fivetran.com/docs/applications/mariadb-amazon-rds"
+		},
+		{
+			"code": "oracle-amazon-rds",
+			"url": "https://fivetran.com/docs/applications/oracle-amazon-rds"
+		},
+		{
+			"code": "amazon-aurora-mysql",
+			"url": "https://fivetran.com/docs/applications/amazon-aurora-mysql"
+		},
+		{
+			"code": "amazon-aurora-postgresql",
+			"url": "https://fivetran.com/docs/applications/amazon-aurora-postgresql"
+		}
+	]
+}
