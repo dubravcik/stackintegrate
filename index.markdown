@@ -159,7 +159,8 @@ var destinations = [
 		{% for destination in tool_selected.destinations %}
 		{
 		  from: "{{tool_filename}}",
-		  to: "{{destination.code}}"
+		  to: "{{destination.code}}",
+		  color: {inherit: "from"}
 		},
 		{% endfor %}
 	{% endfor %}
@@ -191,7 +192,7 @@ destinations.forEach( destination => {
 
 
 
-var nodes = tools2;
+var nodes = tools2.reverse();
 var edges = sources.concat(destinations);
 var network;
 var allNodes;
@@ -214,7 +215,7 @@ function draw() {
     },
     edges: {
       width: 0.15,
-      color: { inherit: "from" },
+      color: { inherit: "to" },
       smooth: {
         type: "continuous",
       },
@@ -232,6 +233,7 @@ function draw() {
       hideEdgesOnDrag: false,
       hideEdgesOnZoom: true,
 	  hover: true,
+	  multiselect: true,
     },
   };
   var data = { nodes: nodesDataset, edges: edgesDataset }; 
@@ -275,6 +277,7 @@ function neighbourhoodHighlight(params) {
     // mark all nodes as hard to read.
     for (var nodeId in allNodes) {
       allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      allNodes[nodeId].hidden = true;
       if (allNodes[nodeId].hiddenLabel === undefined) {
         allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
         allNodes[nodeId].label = undefined;
@@ -292,6 +295,8 @@ function neighbourhoodHighlight(params) {
         allNodes[connectedNodes[i]].label =
           allNodes[connectedNodes[i]].hiddenLabel;
         allNodes[connectedNodes[i]].hiddenLabel = undefined;
+		allNodes[connectedNodes[i]].hidden = false;
+		allNodes[connectedNodes[i]].physics = false;
       }
     }
 
@@ -300,6 +305,8 @@ function neighbourhoodHighlight(params) {
     if (allNodes[selectedNode].hiddenLabel !== undefined) {
       allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
       allNodes[selectedNode].hiddenLabel = undefined;
+	  allNodes[selectedNode].hidden = false;
+	  allNodes[selectedNode].physics = false;
     }
   } else if (highlightActive === true) {
     // reset all nodes
@@ -308,6 +315,8 @@ function neighbourhoodHighlight(params) {
       if (allNodes[nodeId].hiddenLabel !== undefined) {
         allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
         allNodes[nodeId].hiddenLabel = undefined;
+		allNodes[nodeId].hidden = false;
+	    allNodes[nodeId].physics = true;
       }
     }
     highlightActive = false;
