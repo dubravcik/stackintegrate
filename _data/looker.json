@@ -9,7 +9,7 @@
 			"url": "https://docs.looker.com/setup-and-management/database-config"
 		},
 		{
-			"code": "athena"
+			"code": "amazon-athena"
 		},
 		{
 			"code": "druid"

@@ -5,7 +5,84 @@
 	"status": "incomplete destinations",
 	"destinations": [
 		{
+			"url": "https://hub.meltano.com/targets/airtable",
+			"code": "airtable"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/athena",
+			"code": "amazon-athena",
+			"code-original": "athena"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/azureblobstorage",
+			"code": "azure-blob-storage",
+			"code-original": "azureblobstorage"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/bigquery",
 			"code": "bigquery"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/cassandra",
+			"code": "cassandra"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/csv",
+			"code": "csv"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/datadotworld",
+			"code": "datadotworld"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/gsheet",
+			"code": "google-sheet",
+			"code-original": "gsheet"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/jsonl",
+			"code": "jsonl"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/kinesis",
+			"code": "kinesis"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/magentobi",
+			"code": "magentobi"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/pardot",
+			"code": "pardot"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/parquet",
+			"code": "parquet"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/postgres",
+			"code": "postgresql",
+			"code-original": "postgres"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/redshift",
+			"code": "redshift"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/snowflake",
+			"code": "snowflake"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/sqlite",
+			"code": "sqlite"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/stitch",
+			"code": "stitch"
+		},
+		{
+			"url": "https://hub.meltano.com/targets/yaml",
+			"code": "yaml"
 		}
 	],
 	"sources": [

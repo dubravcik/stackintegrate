@@ -5,8 +5,55 @@
 	"status":"incomplete destinations",
 	"destinations": [
 		{
-			"code": "bigquery"
-		}
+			"code": "azure-synapse",
+			"url": "https://fivetran.com/docs/destinations/azure-warehouse",
+			"code-original": "azure-warehouse"
+		},
+		{
+			"code": "bigquery",
+			"url": "https://fivetran.com/docs/destinations/bigquery",
+			"code-original": "bigquery"
+		},
+		{
+			"code": "databricks",
+			"url": "https://fivetran.com/docs/destinations/databricks",
+			"code-original": "databricks"
+		},
+		{
+			"code": "mysql",
+			"url": "https://fivetran.com/docs/destinations/mysql",
+			"code-original": "mysql"
+		},
+		{
+			"code": "panoply",
+			"url": "https://fivetran.com/docs/destinations/panoply",
+			"code-original": "panoply"
+		},
+		{
+			"code": "periscope",
+			"url": "https://fivetran.com/docs/destinations/periscope",
+			"code-original": "periscope"
+		},
+		{
+			"code": "postgresql",
+			"url": "https://fivetran.com/docs/destinations/postgresql",
+			"code-original": "postgresql"
+		},
+		{
+			"code": "redshift",
+			"url": "https://fivetran.com/docs/destinations/redshift",
+			"code-original": "redshift"
+		},
+		{
+			"code": "snowflake",
+			"url": "https://fivetran.com/docs/destinations/snowflake",
+			"code-original": "snowflake"
+		},
+		{
+			"code": "sql-server",
+			"url": "https://fivetran.com/docs/destinations/snowflake",
+			"code-original": "sql-server"
+		},
 	],
 	"sources": [
 		{

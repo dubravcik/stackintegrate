@@ -2,7 +2,52 @@
 	"name": "Funnel",
 	"type": "data loading",
 	"url": "https://funnel.io",
-	"status": "needs renaming",
+	"status": "needs renaming",	
+	"log": {
+		{"timestamp": "2020-02-23", "message": "completed destinations"}		
+	},
+	"destinations": [
+		{
+			"code": "google-analytics",
+			"url": "https://funnel.io/data-destination/google-analytics-cost-data-upload"
+		},
+		{
+			"code": "google-data-studio",
+			"url": "https://funnel.io/data-destination/marketing-reporting-google-data-studio"
+		},
+		{
+			"code": "google-sheets",
+			"url": "https://funnel.io/data-destination/google-sheets-upload"
+		},
+		{
+			"code": "snowflake",
+			"url": "https://funnel.io/data-destination/snowflake-connector"
+		},
+		{
+			"code": "amazon-s3",
+			"url": "https://funnel.io/data-destination/amazon-s3"
+		},		
+		{
+			"code": "azure-synapse",
+			"url": "https://funnel.io/data-destination/microsoft-azure"
+		},
+		{
+			"code": "sftp",
+			"url": "https://funnel.io/data-destination/sftp"
+		},
+		{
+			"code": "tableau",
+			"url": "https://funnel.io/data-destination/tableau"
+		},
+		{
+			"code": "bigquery",
+			"url": "https://funnel.io/data-destination/google-bigquery"
+		},
+		{
+			"code": "google-cloud-storage",
+			"url": "https://funnel.io/data-destination/google-cloud-storage"
+		}
+	],
 	"sources": [
 		{
 			"code": "adobeanalytics"

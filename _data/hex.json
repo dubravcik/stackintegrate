@@ -1,0 +1,45 @@
+{
+	"name": "Hex",
+	"type": "reporting",
+	"url": "https://hex.tech",
+	"status":"incomplete sources",
+	"sources": [
+		{
+			"code": "athena",
+			"url": "https://learn.hex.tech/docs/connect-to-data/data-connections/overview"
+		},
+		{
+			"code": "bigquery"
+		},
+		{
+			"code": "databricks"
+		},
+		{
+			"code": "dremio"
+		},
+		{
+			"code": "mariadb"
+		},
+		{
+			"code": "sql-server"
+		},
+		{
+			"code": "mysql"
+		},
+		{
+			"code": "postgresql"
+		},
+		{
+			"code": "redshift"
+		},
+		{
+			"code": "snowflake"
+		},
+		{
+			"code": "transform"
+		},
+		{
+			"code": "trino"
+		}
+	]
+}
